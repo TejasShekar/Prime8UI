@@ -1,0 +1,122 @@
+@import url(/Styles/reset.css);
+
+html {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5rem;
+  color: var(--text-color);
+  background-color: var(--secondary);
+}
+
+.header-wrapper {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 1rem;
+  border-bottom: 1px solid var(--primary);
+  background-color: var(--secondary);
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.brand-name {
+  font-family: "Audiowide", cursive;
+  margin: 1rem;
+}
+
+.header-nav ul {
+  display: flex;
+}
+
+nav ul > * {
+  list-style-type: none;
+  margin: 10px;
+}
+
+a {
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: var(--primary);
+}
+
+.main-wrapper main {
+  margin-top: 6rem;
+  display: flex;
+}
+
+.sidenav-wrapper {
+  padding: 1rem;
+  width: 20rem;
+}
+
+.main-container section{
+  margin: 2rem;
+}
+
+p{
+  margin-top: 1rem ;
+}
+
+code,
+span {
+  font-size: 1rem;
+  color: var(--primary);
+}
+
+.demo-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.demo > * {
+  margin: 15px 5px;
+}
+
+/*avatar styles*/
+
+.avatar {
+  display: inline-block;
+  border-radius: 50%;
+  font-size: 3rem;
+  height: 8rem;
+  width: 8rem;
+}
+
+.avatar img {
+  border-radius: 50%;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.avatar-L {
+  font-size: 4rem;
+  height: 12rem;
+  width: 12rem;
+}
+
+.avatar-S {
+  font-size: 2rem;
+  height: 5rem;
+  width: 5rem;
+}
+
+.avatar-text {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+
+/* making image responsive */
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
