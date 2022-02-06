@@ -51,12 +51,12 @@ a {
   width: 20rem;
 }
 
-.main-container section{
+.main-container section {
   margin: 2rem;
 }
 
-p{
-  margin-top: 1rem ;
+p {
+  margin-top: 1rem;
 }
 
 code,
@@ -71,6 +71,11 @@ span {
   flex-wrap: wrap;
 }
 
+.demo {
+  display: flex;
+  align-items: flex-end;
+}
+
 .demo > * {
   margin: 15px 5px;
 }
@@ -78,7 +83,6 @@ span {
 /*avatar styles*/
 
 .avatar {
-  display: inline-block;
   border-radius: 50%;
   font-size: 3rem;
   height: 8rem;
