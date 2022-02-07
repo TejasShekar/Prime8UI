@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Tejas Shekar" />
+    <title>Prime8 | Badge</title>
+    <link rel="stylesheet" href="../../styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/a11y-dark.min.css"
+    />
+    <script src="../../Styles/docs.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <a class="brand-name" href=""><h1>PRIME 8</h1></a>
+      <nav class="header-nav">
+        <ul class="nav-list">
+          <li><a href="#">Home</a></li>
+          <li><a class="active" href="#">Documentation</a></li>
+          <li>
+            <a href="#">Contribute <i class="fab fa-github"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="wrapper">
+      <aside>
+        <ul>
+          <li><a href="../Avatar/avatar.html">Avatar</a></li>
+          <li><a class="active" href="#">Badge</a></li>
+        </ul>
+      </aside>
+      <main class="main-container">
+        <section>
+          <h1>Badge</h1>
+          <p>
+            Badge is used to show the status information of the user or
+            notification number or number of items in the cart.
+          </p>
+        </section>
+        <section>
+          <h2>Badge on Avatar</h2>
+          <p>
+            Badge on Avatar can be used to show different user status, such as
+            offline, idle and online. Use class <span>badge-L</span>,
+            <span>badge</span> or <span>badge-S</span> according to size of the
+            avatar used. Regular size is set as default for
+            <span>badge</span> class.
+          </p>
+          <div class="demo-container">
+            <div class="badge-container">
+              <figure class="avatar avatar-L">
+                <img
+                  class="img-responsive"
+                  src="../../Assets/avatar-male.jpg"
+                  alt="avatar"
+                />
+              </figure>
+              <div class="badge badge-L online"></div>
+            </div>
+            <div class="badge-container">
+              <figure class="avatar">
+                <img
+                  class="img-responsive"
+                  src="../../Assets/avatar-female.jpg"
+                  alt="avatar"
+                />
+              </figure>
+              <div class="badge idle"></div>
+            </div>
+            <div class="badge-container">
+              <figure class="avatar avatar-S">
+                <img
+                  class="img-responsive"
+                  src="../../Assets/avatar-dog.jpg"
+                  alt="avatar"
+                />
+              </figure>
+              <div class="badge badge-S offline"></div>
+            </div>
+          </div>
+          <pre id="myInput">
+            <code class="language-html">&lt;div class=&quot;badge-container&quot;&gt;
+              &lt;figure class=&quot;avatar avatar-L&quot;&gt;
+                &lt;img
+                  class=&quot;img-responsive&quot;
+                  src=&quot; &quot;
+                  alt=&quot;avatar&quot;
+                /&gt;
+              &lt;/figure&gt;
+              &lt;div class=&quot;badge badge-L online&quot;&gt;&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;badge-container&quot;&gt;
+              &lt;figure class=&quot;avatar&quot;&gt;
+                &lt;img
+                  class=&quot;img-responsive&quot;
+                  src=&quot; &quot;
+                  alt=&quot;avatar&quot;
+                /&gt;
+              &lt;/figure&gt;
+              &lt;div class=&quot;badge idle&quot;&gt;&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;badge-container&quot;&gt;
+              &lt;figure class=&quot;avatar avatar-S&quot;&gt;
+                &lt;img
+                  class=&quot;img-responsive&quot;
+                  src=&quot; &quot;
+                  alt=&quot;avatar&quot;
+                /&gt;
+              &lt;/figure&gt;
+              &lt;div class=&quot;badge badge-S offline&quot;&gt;&lt;/div&gt;
+            &lt;/div&gt;
+            </code>
+            <button id="button" class="snippet-btn"><i class="fas fa-copy"></i></button>
+        </pre>
+        <div id="copiedSnackbar" class="">Copied!</div>
+        </section>
+        <section>
+          <h2>Badge on Icon</h2>
+          <p>Badge on Icon can be used to show count information.</p>
+          <div class="demo-container">
+            <div class="badge-icon-container">
+              <div class="bell-badge">
+                <i class="fas fa-bell fa-3x"></i>
+              </div>
+              <div class="notification-icon badge">1</div>
+            </div>
+            <div class="badge-icon-container">
+              <div class="envelope-badge">
+                <i class="fas fa-envelope fa-3x"></i>
+                <div class="notification-icon badge">1</div>
+              </div>
+            </div>
+            <div class="badge-icon-container">
+              <div class="cart-badge">
+                <i class="fas fa-shopping-cart fa-3x"></i>
+                <div class="notification-icon badge">1</div>
+              </div>
+            </div>
+          </div>
+          <pre id="myInput">
+            <code class="language-html">&lt;div class=&quot;badge-icon-container&quot;&gt;
+              &lt;div class=&quot;bell-badge&quot;&gt;
+                &lt;i class=&quot;fas fa-bell fa-3x&quot;&gt;&lt;/i&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;notification-icon badge&quot;&gt;1&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;badge-icon-container&quot;&gt;
+              &lt;div class=&quot;envelope-badge&quot;&gt;
+                &lt;i class=&quot;fas fa-envelope fa-3x&quot;&gt;&lt;/i&gt;
+                &lt;div class=&quot;notification-icon badge&quot;&gt;1&lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;badge-icon-container&quot;&gt;
+              &lt;div class=&quot;cart-badge&quot;&gt;
+                &lt;i class=&quot;fas fa-shopping-cart fa-3x&quot;&gt;&lt;/i&gt;
+                &lt;div class=&quot;notification-icon badge&quot;&gt;1&lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            </code><button id="button" class="snippet-btn"><i class="fas fa-copy"></i></button>
+        </pre>
+        </section>
+      </main>
+    </div>
+    <footer class="footer">Made by<a href="#">Tejas</a></footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
+  </body>
+</html>
