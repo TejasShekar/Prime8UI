@@ -1,0 +1,76 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  border-bottom: 1px solid var(--primary);
+  background-color: var(--secondary);
+}
+
+.brand-name {
+  font-family: "Audiowide", cursive;
+  margin: 1rem;
+}
+
+.header-nav {
+  margin: auto 0;
+}
+
+.header-nav ul {
+  display: flex;
+}
+
+.active{
+  background-color: var(--primary);
+  color: var(--secondary);
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.wrapper{
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  margin-top: 6rem;
+  align-items: baseline;
+}
+
+aside li{
+  margin: 20px;
+}
+
+.main-container section {
+  margin: 2rem;
+}
+
+p {
+  margin-top: 1rem;
+}
+
+code,
+span {
+  font-size: 1rem;
+  color: var(--primary);
+}
+
+.demo-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.demo-container > * {
+  margin: 15px 5px;
+}
+
+footer{
+  text-align: center;
+}
+
+/* making image responsive */
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
