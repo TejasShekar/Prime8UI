@@ -19,109 +19,93 @@
     />
   </head>
   <body>
-    <div class="header-wrapper">
-      <header>
-        <a href="/" class="brand-name"><h1>PRIME 8</h1></a>
-        <nav class="header-nav">
-          <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Docs</a></li>
-            <li>
-              <a href="https://github.com/TejasShekar/Prime8UI"
-                >Contribute <i class="fa fa-github"></i
-              ></a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-    </div>
-    <div class="main-wrapper">
-      <main>
-        <div class="sidenav-wrapper">
-          <aside>
-            <nav class="nav-main">
-              <ul>
-                <li>
-                  <a href="">Avatars</a>
-                </li>
-              </ul>
-            </nav>
-          </aside>
-        </div>
-        <div class="main-container">
-          <section>
-            <h1>Avatars</h1>
-            <p>
-              Avatar is used to represent a user, and display their profile
-              picture or initials. <span><strong>Prime8</strong></span> provides
-              you two type of avatars - image avatars and text avatars, with
-              three different sizes which are large, regular and small.
-            </p>
-          </section>
-          <section>
-            <h2>Image avatars</h2>
-            <p>
-              You can use the image of the user in image avatar. You need to
-              include
-              <code>avatar</code> class and add size class (<code
-                >avatar-L, avatar-S</code
-              >) according to your size requirements. Regular size is set as
-              default for <code>avatar</code> class. Don't forget to add
-              <code>responsive-img</code> class names for img element.
-            </p>
-            <div class="demo-container">
-              <div class="demo">
-                <figure class="avatar avatar-L">
-                  <img
-                    class="img-responsive"
-                    src="../../Assets/avatar-male.jpg"
-                    alt="avatar"
-                  />
-                </figure>
-                <figure class="avatar">
-                  <img
-                    class="img-responsive"
-                    src="../../Assets/avatar-female.jpg"
-                    alt="avatar"
-                  />
-                </figure>
-                <figure class="avatar avatar-S">
-                  <img
-                    class="img-responsive"
-                    src="../../Assets/avatar-dog.jpg"
-                    alt="avatar"
-                  />
-                </figure>
-              </div>
-              <div class="code-snippet"></div>
+    <header class="header">
+      <a class="brand-name" href=""><h1>PRIME 8</h1></a>
+      <nav class="header-nav">
+        <ul class="nav-list">
+          <li><a href="#">Home</a></li>
+          <li><a class="active" href="#">Documentation</a></li>
+          <li>
+            <a href="#">Contribute <i class="fa fa-github"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="wrapper">
+      <aside>
+        <ul>
+          <li><a class="active" href="#">Avatar</a></li>
+          <li><a href="../Badge/badge.html">Badge</a></li>
+        </ul>
+      </aside>
+      <main class="main-container">
+        <section>
+          <h1>Avatar</h1>
+          <p>
+            Avatar is used to represent a user, and display their profile
+            picture or initials. </p>
+        </section>
+        <section>
+          <h2>Image avatars</h2>
+          <p>
+            You can use the image of the user in image avatar. You need to
+            include
+            <code>avatar</code> class and add size class (<code
+              >avatar-L, avatar-S</code
+            >) according to your size requirements. Regular size is set as
+            default for <code>avatar</code> class. Don't forget to add
+            <code>responsive-img</code> class names for img element.
+          </p>
+
+          <div class="demo-container">
+            <figure class="avatar avatar-L">
+              <img
+                class="img-responsive"
+                src="../../Assets/avatar-male.jpg"
+                alt="avatar"
+              />
+            </figure>
+            <figure class="avatar">
+              <img
+                class="img-responsive"
+                src="../../Assets/avatar-female.jpg"
+                alt="avatar"
+              />
+            </figure>
+            <figure class="avatar avatar-S">
+              <img
+                class="img-responsive"
+                src="../../Assets/avatar-dog.jpg"
+                alt="avatar"
+              />
+            </figure>
+          </div>
+          <div class="code-snippet"></div>
+        </section>
+        <section>
+          <h2>Text avatars</h2>
+          <p>
+            You can use the initials of the user in text avatar. You need to
+            include <code>avatar</code> class and add size class (<code
+              >avatar-L, avatar-S</code
+            >) according to your size requirements. Regular size is set as
+            default for <code>avatar</code> class.
+          </p>
+          <div class="demo-container">
+            <div class="avatar-text avatar-L">
+              <strong>TS</strong>
             </div>
-          </section>
-          <section>
-            <h2>Text avatars</h2>
-            <p>
-              You can use the initials of the user in text avatar. You need to
-              include <code>avatar</code> class and add size class (<code
-                >avatar-L, avatar-S</code
-              >) according to your size requirements. Regular size is set as
-              default for <code>avatar</code> class.
-            </p>
-            <div class="demo-container">
-              <div class="demo">
-                <div class="avatar-text avatar-L">
-                  <strong>TS</strong>
-                </div>
-                <div class="avatar-text avatar">
-                  <strong>TS</strong>
-                </div>
-                <div class="avatar-text avatar-S">
-                  <strong>TS</strong>
-                </div>
-              </div>
-              <div class="code-snippet"></div>
+            <div class="avatar-text avatar">
+              <strong>TS</strong>
             </div>
-          </section>
-        </div>
+            <div class="avatar-text avatar-S">
+              <strong>TS</strong>
+            </div>
+            <div class="code-snippet"></div>
+          </div>
+        </section>
       </main>
     </div>
+    <footer class="footer">Made by<a href="#">Tejas</a></footer>
   </body>
 </html>
