@@ -21,14 +21,12 @@
   font-size: 1.25rem;
   height: 2.5rem;
   width: 2.5rem;
-  bottom: 0;
   right: 20px;
 }
 
 .badge-S {
   height: 1.5rem;
   width: 1.5rem;
-  bottom: 0;
   right: 0;
 }
 .online {
