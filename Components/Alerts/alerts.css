@@ -1,0 +1,29 @@
+.alert{
+    min-width: 25rem;
+    display: flex;
+    align-items: center;
+    padding: 0rem 1rem;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.alert > *{
+    color: black;
+}
+
+.alert-info{
+    background-color: #94e9e0;
+}
+
+.alert-success{
+    background-color: #00df5d;
+}
+
+.alert-danger{
+    background-color: #e73737;
+}
+
+.alert-warn{
+    background-color: #f19d00;
+}
+
