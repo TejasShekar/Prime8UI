@@ -12,18 +12,21 @@
 }
 
 .alert-info{
-    background-color: #94e9e0;
+    background-color: var(--info);
 }
 
 .alert-success{
-    background-color: #00df5d;
+    background-color: var(--success);
+
 }
 
 .alert-danger{
-    background-color: #e73737;
+    background-color: var(--danger);
+
 }
 
 .alert-warn{
-    background-color: #f19d00;
+    background-color: var(--warn);
+
 }
 
