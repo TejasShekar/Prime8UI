@@ -1,0 +1,33 @@
+.btn {
+    background-color: var(--secondary);
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  border: 1px solid transparent;
+  border-radius: 0.475rem;
+  font-weight: bold;
+}
+
+.btn-primary {
+  color: var(--secondary);
+  background-color: var(--primary);
+}
+
+.btn-secondary {
+  color: var(--primary);
+  background-color: var(--secondary);
+  border: 1px solid var(--primary);
+}
+
+.btn-link:hover{
+  border: 1px solid var(--primary);
+}
+
+.btn-icon, .btn-float{
+    background: transparent;
+    color: var(--text-color);
+}
+
+.btn-icon:hover, .btn-float:hover{
+    color: var(--primary);
+}
