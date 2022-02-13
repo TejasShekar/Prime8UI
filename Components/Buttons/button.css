@@ -1,5 +1,5 @@
 .btn {
-    background-color: var(--secondary);
+  background-color: var(--secondary);
   cursor: pointer;
   padding: 0.5rem 1rem;
   font-size: 1.5rem;
@@ -19,15 +19,17 @@
   border: 1px solid var(--primary);
 }
 
-.btn-link:hover{
+.btn-link:hover {
   border: 1px solid var(--primary);
 }
 
-.btn-icon, .btn-float{
-    background: transparent;
-    color: var(--text-color);
+.btn-icon,
+.btn-float {
+  background: transparent;
+  color: var(--text-color);
 }
 
-.btn-icon:hover, .btn-float:hover{
-    color: var(--primary);
+.btn-icon:hover,
+.btn-float:hover {
+  color: var(--primary);
 }
