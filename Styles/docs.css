@@ -25,10 +25,18 @@
   display: flex;
 }
 
+a {
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: var(--primary);
+  padding: 0.5rem;
+  list-style-type: none;
+  margin: 0.5rem;
+}
+
 .active{
-  background-color: var(--primary);
-  color: var(--secondary);
-  border-radius: 10px;
+  color: var(--text-color);
+  text-decoration: underline var(--primary);
   font-weight: bold;
 }
 
@@ -37,6 +45,10 @@
   grid-template-columns: 1fr 5fr;
   margin-top: 6rem;
   align-items: baseline;
+}
+
+li {
+  margin: 10px;
 }
 
 aside li{
@@ -65,6 +77,7 @@ span {
   align-items: flex-end;
   justify-content: center;
   flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .demo-container > * {
