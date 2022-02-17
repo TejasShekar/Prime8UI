@@ -88,12 +88,6 @@ footer{
   text-align: center;
 }
 
-/* making image responsive */
-.img-responsive {
-  max-width: 100%;
-  height: auto;
-}
-
 /* highlight.js */
 pre {
   white-space: pre-line;

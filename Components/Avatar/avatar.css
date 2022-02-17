@@ -5,13 +5,6 @@
   width: 8rem;
 }
 
-.avatar img {
-  border-radius: 50%;
-  height: 100%;
-  object-fit: cover;
-  width: 100%;
-}
-
 .avatar-L {
   font-size: 4rem;
   height: 12rem;
