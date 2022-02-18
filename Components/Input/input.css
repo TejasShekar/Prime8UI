@@ -1,0 +1,48 @@
+.input-container {
+  width: 300px;
+  margin: 1rem auto;
+  font-weight: bold;
+}
+.input-label,
+#text-input,
+#success-input,
+#error-input {
+  width: 100%;
+  margin: 10px 0 0 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  outline: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#text-input:focus {
+  border: 3px solid var(--primary);
+}
+
+#success-input {
+  border: 3px solid var(--success);
+}
+
+#error-input {
+  border: 3px solid var(--danger);
+}
+
+.gap-0 {
+  gap: 0;
+}
+
+.error-message{
+    font-size: 0.8rem;
+    font-weight: 100;
+    color: var(--danger);
+}
+
+.success-message{
+    font-size: 0.8rem;
+    font-weight: 100;
+    color: var(--success);
+}
