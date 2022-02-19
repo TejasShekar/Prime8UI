@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Tejas Shekar" />
+    <title>Prime8 | Slider</title>
+    <link rel="stylesheet" href="../../styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/a11y-dark.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a class="brand-name" href=""><h1>PRIME 8</h1></a>
+      <nav class="header-nav">
+        <ul class="nav-list">
+          <li><a href="#">Home</a></li>
+          <li><a class="active" href="#">Documentation</a></li>
+          <li>
+            <a href="#">Contribute <i class="fab fa-github"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="wrapper">
+      <aside>
+        <ul>
+          <li><a href="../Alerts/alerts.html">Alert</a></li>
+          <li><a href="../Avatar/avatar.html">Avatar</a></li>
+          <li><a href="../Badge/badge.html">Badge</a></li>
+          <li><a href="../Buttons/button.html">Button</a></li>
+          <li><a href="../Cards/cards.html">Cards</a></li>
+          <li><a href="../Images/images.html">Images</a></li>
+          <li><a href="../Input/input.html">Input</a></li>
+          <li><a href="../Lists/lists.html">Lists</a></li>
+          <li><a href="../Rating/rating.html">Rating</a></li>
+          <li><a class="active" href="../Slider/slider.html">Slider</a></li>
+        </ul>
+      </aside>
+      <main class="main-container">
+        <section>
+          <h1>Slider</h1>
+          <p>
+            Rating is used to display the overall reviews of an item or a
+            product.
+          </p>
+        </section>
+        <section>
+          <div class="demo-container">
+            <input type="range" class="slider" min="0" max="100" value="21" />
+          </div>
+          <pre class="myInput">
+            <code class="language-html">
+                &lt;input type=&quot;range&quot; id=&quot;slider&quot; min=&quot;0&quot; max=&quot;100&quot; value=&quot;21&quot; /&gt;
+            </code>
+            <!-- <button id="button" class="snippet-btn"><i class="fas fa-copy"></i></button> -->
+        </pre>
+        </section>
+
+        <!-- <div id="copiedSnackbar" class="">Copied!</div> -->
+      </main>
+    </div>
+    <footer class="footer">Made by<a href="#">Tejas</a></footer>
+    <script src="./slider.js"></script>
+    <script src="../../Styles/docs.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
+  </body>
+</html>
