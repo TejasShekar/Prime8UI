@@ -4,7 +4,7 @@
 
 .rating-container label {
   cursor: pointer;
-  color: gold;
+  color: var(--idle);
 }
 
 .rating-container input:not(:checked) + label {
