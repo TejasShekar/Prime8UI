@@ -17,20 +17,18 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/a11y-dark.min.css"
-    />
   </head>
   <body>
     <header class="header">
       <a class="brand-name" href=""><h1>PRIME 8</h1></a>
       <nav class="header-nav">
         <ul class="nav-list">
-          <li><a href="#">Home</a></li>
+          <li><a href="../../index.html">Home</a></li>
           <li><a class="active" href="#">Documentation</a></li>
           <li>
-            <a href="#">Contribute <i class="fab fa-github"></i></a>
+            <a href="https://github.com/TejasShekar/Prime8UI" target="_blank"
+              >Contribute <i class="fab fa-github"></i
+            ></a>
           </li>
         </ul>
       </nav>
@@ -53,7 +51,10 @@
       <main class="main-container">
         <section>
           <h1>Input</h1>
-          <p>Inputs are used to take information from the user and perform necessary actions.</p>
+          <p>
+            Inputs are used to take information from the user and perform
+            necessary actions.
+          </p>
         </section>
         <section>
           <h2>Simple Input</h2>
@@ -65,27 +66,12 @@
               placeholder="Enter your username here"
             />
           </div>
-          <pre id="myInput">
-            <code class="language-html">
-            &lt;div class=&quot;input-container gap-0&quot;&gt;
-             &lt;label class=&quot;input-label&quot; for=&quot;text-input&quot;&gt;Username&lt;/label&gt;
-             &lt;input
-              id=&quot;text-input&quot;
-              type=&quot;text&quot;
-              placeholder=&quot;Enter your username here&quot;
-              /&gt;
-            &lt;/div&gt;
-            </code>
-            <!-- <button id="button" class="snippet-btn"><i class="fas fa-copy"></i></button> -->
-        </pre>
+          <div class="code-block"></div>
         </section>
         <section>
           <h2>Input with Validation</h2>
-
           <div class="input-container gap-0">
-            <label class="input-label" for="success-input"
-              >Success Validation</label
-            >
+            <label class="input-label" for="success-input">Success Validation</label>
             <input
               id="success-input"
               type="email"
@@ -97,9 +83,7 @@
             </div>
           </div>
           <div class="input-container gap-0">
-            <label class="input-label" for="error-input"
-              >Error Validation</label
-            >
+            <label class="input-label" for="error-input">Error Validation</label>
             <input
               id="error-input"
               type="password"
@@ -110,41 +94,12 @@
               <i class="fas fa-exclamation-triangle"></i> Wrong Password !
             </div>
           </div>
-
-          <pre id="myInput">
-              <code class="language-html">
-                &lt;div class=&quot;input-container gap-0&quot;&gt;
-            &lt;label class=&quot;input-label&quot; for=&quot;success-input&quot;&gt;Success Validation&lt;/label&gt;
-            &lt;input
-              id=&quot;success-input&quot;
-              type=&quot;email&quot;
-              placeholder=&quot;Enter your email here&quot;
-              value=&quot;example.email@earth.com&quot;
-            /&gt;
-            &lt;div class=&quot;success-message&quot;&gt;&lt;i class=&quot;fas fa-check-circle&quot;&gt;&lt;/i&gt; Looks Good !&lt;/div&gt;
-
-          &lt;/div&gt;
-          &lt;div class=&quot;input-container gap-0&quot;&gt;
-            &lt;label class=&quot;input-label&quot; for=&quot;error-input&quot;&gt;Error Validation&lt;/label&gt;
-            &lt;input
-              id=&quot;error-input&quot;
-              type=&quot;password&quot;
-              placeholder=&quot;Enter your password here&quot;
-            /&gt;
-            &lt;div class=&quot;error-message&quot;&gt;&lt;i class=&quot;fas fa-exclamation-triangle&quot;&gt;&lt;/i&gt; Wrong Password !&lt;/div&gt;
-          &lt;/div&gt;
-              </code>
-              <!-- <button id="button" class="snippet-btn"><i class="fas fa-copy"></i></button> -->
-          </pre>
+          <div class="code-block"></div>
         </section>
-        <!-- <div id="copiedSnackbar" class="">Copied!</div> -->
       </main>
     </div>
-    <footer class="footer">Made by<a href="#">Tejas</a></footer>
-    <script src="../../Styles/docs.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
-    <script>
-      hljs.highlightAll();
-    </script>
+    <footer class="footer">
+      Made by<a href="https://github.com/TejasShekar" target="_blank">Tejas</a>
+    </footer>
   </body>
 </html>
