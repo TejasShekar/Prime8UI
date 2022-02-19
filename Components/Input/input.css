@@ -3,6 +3,7 @@
   margin: 1rem auto;
   font-weight: bold;
 }
+
 .input-label,
 #text-input,
 #success-input,
@@ -35,14 +36,14 @@ input[type="password"] {
   gap: 0;
 }
 
-.error-message{
-    font-size: 0.8rem;
-    font-weight: 100;
-    color: var(--danger);
+.error-message {
+  font-size: 0.8rem;
+  font-weight: 100;
+  color: var(--danger);
 }
 
-.success-message{
-    font-size: 0.8rem;
-    font-weight: 100;
-    color: var(--success);
+.success-message {
+  font-size: 0.8rem;
+  font-weight: 100;
+  color: var(--success);
 }
