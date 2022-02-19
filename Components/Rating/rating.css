@@ -1,8 +1,12 @@
-.stars-container input{
-    display: none;
+.rating-container input {
+  display: none;
 }
 
-.stars-container i{
-    cursor: pointer;
-    color: gold;
+.rating-container label {
+  cursor: pointer;
+  color: gold;
+}
+
+.rating-container input:not(:checked) + label {
+  color: grey;
 }
