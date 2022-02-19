@@ -1,0 +1,12 @@
+.rating-container input {
+  display: none;
+}
+
+.rating-container label {
+  cursor: pointer;
+  color: var(--idle);
+}
+
+.rating-container input:not(:checked) + label {
+  color: var(--lightGrey);
+}

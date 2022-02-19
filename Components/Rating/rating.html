@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Tejas Shekar" />
-    <title>Prime8 | Images</title>
+    <title>Prime8 | Rating</title>
     <link rel="stylesheet" href="../../styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -43,54 +43,56 @@
           <li><a href="../Badge/badge.html">Badge</a></li>
           <li><a href="../Buttons/button.html">Button</a></li>
           <li><a href="../Cards/cards.html">Cards</a></li>
-          <li><a class="active" href="../Images/images.html">Images</a></li>
+          <li><a href="../Images/images.html">Images</a></li>
           <li><a href="../Input/input.html">Input</a></li>
           <li><a href="../Lists/lists.html">Lists</a></li>
-          <li><a href="../Rating/rating.html">Rating</a></li>
+          <li><a class="active" href="../Rating/rating.html">Rating</a></li>
         </ul>
       </aside>
       <main class="main-container">
         <section>
-          <h1>Images</h1>
-          <p>Images is a visual representation of information.</p>
+          <h1>Rating</h1>
+          <p>
+            Rating is used to display the overall reviews of an item or a
+            product.
+          </p>
         </section>
         <section>
-          <h2>Responsive Image</h2>
-          <p>
-            Image can be made responsive so that they adjust to their parent's
-            container size.
-          </p>
+          <h2>Star Rating</h2>
           <div class="demo-container">
-            <img
-              class="img-responsive"
-              src="../../Assets/avatar-dog.jpg"
-              alt="Cartoon Dog"
-            />
+            <div class="rating-container">
+              <input type="checkbox" id="star-1" checked disabled />
+              <label for="star-1" class="fas fa-star fa-2x"></label>
+              <input type="checkbox" id="star-2" checked disabled />
+              <label for="star-2" class="fas fa-star fa-2x"></label>
+              <input type="checkbox" id="star-3" checked disabled />
+              <label for="star-3" class="fas fa-star fa-2x"></label>
+              <input type="checkbox" id="star-4" disabled />
+              <label for="star-4" class="fas fa-star fa-2x"></label>
+              <input type="checkbox" id="star-5" disabled />
+              <label for="star-5" class="fas fa-star fa-2x"></label>
+            </div>
           </div>
           <pre id="myInput">
             <code class="language-html">
-                &lt;img class=&quot;img-responsive&quot; src=&quot;../../Assets/avatar-dog.jpg&quot; alt=&quot;Cartoon Dog&quot; /&gt;
+                &lt;div class=&quot;rating-container&quot;&gt;
+                &lt;input type=&quot;checkbox&quot; id=&quot;star-1&quot; checked disabled /&gt;
+                &lt;label for=&quot;star-1&quot; class=&quot;fas fa-star fa-2x&quot;&gt;&lt;/label&gt;
+                &lt;input type=&quot;checkbox&quot; id=&quot;star-2&quot; checked disabled /&gt;
+                &lt;label for=&quot;star-2&quot; class=&quot;fas fa-star fa-2x&quot;&gt;&lt;/label&gt;
+                &lt;input type=&quot;checkbox&quot; id=&quot;star-3&quot; checked disabled /&gt;
+                &lt;label for=&quot;star-3&quot; class=&quot;fas fa-star fa-2x&quot;&gt;&lt;/label&gt;
+                &lt;input type=&quot;checkbox&quot; id=&quot;star-4&quot; disabled /&gt;
+                &lt;label for=&quot;star-4&quot; class=&quot;fas fa-star fa-2x&quot;&gt;&lt;/label&gt;
+                &lt;input type=&quot;checkbox&quot; id=&quot;star-5&quot; disabled /&gt;
+                &lt;label for=&quot;star-5&quot; class=&quot;fas fa-star fa-2x&quot;&gt;&lt;/label&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
             </code>
             <!-- <button id="button" class="snippet-btn"><i class="fas fa-copy"></i></button> -->
         </pre>
         </section>
-        <section>
-          <h2>Round Image</h2>
-          <p>Image can be made round while also being responsive.</p>
-          <div class="demo-container">
-            <img
-              class="img-responsive img-round"
-              src="../../Assets/avatar-dog.jpg"
-              alt="Cartoon Dog"
-            />
-          </div>
-          <pre id="myInput">
-              <code class="language-html">
-                &lt;img class=&quot;img-responsive img-round&quot; src=&quot;../../Assets/avatar-dog.jpg&quot; alt=&quot;Cartoon Dog&quot; /&gt;
-              </code>
-              <!-- <button id="button" class="snippet-btn"><i class="fas fa-copy"></i></button> -->
-          </pre>
-        </section>
+
         <!-- <div id="copiedSnackbar" class="">Copied!</div> -->
       </main>
     </div>
