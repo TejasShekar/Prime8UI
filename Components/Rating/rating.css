@@ -1,0 +1,8 @@
+.stars-container input{
+    display: none;
+}
+
+.stars-container i{
+    cursor: pointer;
+    color: gold;
+}
