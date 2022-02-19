@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Tejas Shekar" />
+    <title>Prime8 | Lists</title>
+    <link rel="stylesheet" href="../../styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/a11y-dark.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a class="brand-name" href=""><h1>PRIME 8</h1></a>
+      <nav class="header-nav">
+        <ul class="nav-list">
+          <li><a href="#">Home</a></li>
+          <li><a class="active" href="#">Documentation</a></li>
+          <li>
+            <a href="#">Contribute <i class="fab fa-github"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="wrapper">
+      <aside>
+        <ul>
+          <li><a href="../Alerts/alerts.html">Alert</a></li>
+          <li><a href="../Avatar/avatar.html">Avatar</a></li>
+          <li><a href="../Badge/badge.html">Badge</a></li>
+          <li><a href="../Buttons/button.html">Button</a></li>
+          <li><a href="../Cards/cards.html">Cards</a></li>
+          <li><a href="../Images/images.html">Images</a></li>
+          <li><a href="../Input/input.html">Input</a></li>
+          <li><a class="active" href="../Lists/lists.html">Lists</a></li>
+
+        </ul>
+      </aside>
+      <main class="main-container">
+        <section>
+          <h1>Lists</h1>
+          <p>Lists are used to uniformly structure and present information to the user.</p>
+        </section>
+        <section>
+          <h2>Spaced List</h2>
+          <div class="demo-container">
+            <ul class="spaced-list">
+              <li>Inbox</li>
+              <li>Sent</li>
+              <li>Drafts</li>
+              <li>Important</li>
+              <li>Trash</li>
+          </ul>
+          </div>
+          <pre id="myInput">
+            <code class="language-html">
+              &lt;ul class=&quot;spaced-list&quot;&gt;
+              &lt;li&gt;Inbox&lt;/li&gt;
+              &lt;li&gt;Sent&lt;/li&gt;
+              &lt;li&gt;Drafts&lt;/li&gt;
+              &lt;li&gt;Important&lt;/li&gt;
+              &lt;li&gt;Trash&lt;/li&gt;
+          &lt;/ul&gt;
+            </code>
+            <!-- <button id="button" class="snippet-btn"><i class="fas fa-copy"></i></button> -->
+        </pre>
+        </section>
+        <section>
+          <h2>Stacked List</h2>
+          <div class="demo-container">
+            <ul class="stacked-list">
+              <div class="list-title">Categories</div>
+              <li>Inbox</li>
+              <li>Sent</li>
+              <li>Drafts</li>
+              <li>Important</li>
+              <li>Trash</li>
+          </ul>
+          </div>
+          <pre id="myInput">
+              <code class="language-html">
+                &lt;ul class=&quot;stacked-list&quot;&gt;
+              &lt;li&gt;Inbox&lt;/li&gt;
+              &lt;li&gt;Sent&lt;/li&gt;
+              &lt;li&gt;Drafts&lt;/li&gt;
+              &lt;li&gt;Important&lt;/li&gt;
+              &lt;li&gt;Trash&lt;/li&gt;
+          &lt;/ul&gt;
+              </code>
+              <!-- <button id="button" class="snippet-btn"><i class="fas fa-copy"></i></button> -->
+          </pre>
+        </section>
+        <!-- <div id="copiedSnackbar" class="">Copied!</div> -->
+      </main>
+    </div>
+    <footer class="footer">Made by<a href="#">Tejas</a></footer>
+    <script src="../../Styles/docs.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
+  </body>
+</html>

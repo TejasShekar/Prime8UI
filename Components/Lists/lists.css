@@ -1,0 +1,26 @@
+.spaced-list{
+    background-color: var(--primary);
+    color: var(--secondary);
+    display: flex;
+    margin: 1rem;
+    padding: 0;
+}
+
+.stacked-list{
+    background-color: var(--primary);
+    color: var(--secondary);
+    padding: 1rem 0;
+    min-width: 200px;
+}
+
+.list-title{
+    padding: 0 0 1rem 1rem;
+    font-size: large;
+    font-weight: bold;
+    border-bottom: 1px solid var(--secondary);
+}
+
+li:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
