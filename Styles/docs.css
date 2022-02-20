@@ -54,7 +54,7 @@ aside li {
 
 .hero-container {
   position: relative;
-  padding-top: 100px;
+  padding-top: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
