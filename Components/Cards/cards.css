@@ -64,6 +64,9 @@
 
 .card button {
   margin: 0.25rem;
+}
+
+.card .btn{
   width: 97%;
 }
 
