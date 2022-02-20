@@ -66,7 +66,7 @@
   margin: 0.25rem;
 }
 
-.card .btn{
+.card .btn {
   width: 97%;
 }
 
@@ -116,7 +116,6 @@
 /* horizontal card */
 .card-horizontal {
   width: 35rem;
-  cursor: pointer;
   position: relative;
   display: flex;
   border: 1px solid var(--primary);
@@ -124,11 +123,12 @@
 }
 
 .card-img-h {
+  cursor: pointer;
   border-radius: 0.5rem 0 0 0.5rem;
   width: 50%;
 }
 
-.card-details{
+.card-details {
   display: flex;
   flex-direction: column;
 }
