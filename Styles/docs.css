@@ -1,12 +1,10 @@
 .header {
-  z-index: 1;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  position: fixed;
-  left: 0;
+  position: sticky;
   top: 0;
-  width: 100%;
+  z-index: 1;
   border-bottom: 1px solid var(--primary);
   background-color: var(--secondary);
 }
@@ -43,7 +41,6 @@ a {
 .wrapper {
   display: grid;
   grid-template-columns: 1fr 5fr;
-  margin-top: 6rem;
   align-items: baseline;
 }
 
@@ -56,6 +53,7 @@ aside li {
 }
 
 .hero-container {
+  position: relative;
   padding-top: 100px;
   display: flex;
   flex-direction: column;
