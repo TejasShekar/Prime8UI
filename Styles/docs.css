@@ -61,11 +61,11 @@ aside li {
   justify-content: center;
 }
 
-.hero-title{
+.hero-title {
   margin: 2rem;
 }
 
-.text-center{
+.text-center {
   text-align: center;
 }
 
@@ -106,4 +106,10 @@ footer {
 .code-block {
   max-width: 80%;
   margin: 0 auto;
+}
+
+aside {
+  position: sticky;
+  top: 6rem;
+  height: calc(100vh - 6rem);
 }
