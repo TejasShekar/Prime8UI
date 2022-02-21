@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 .alert{
     min-width: 25rem;
     display: flex;
@@ -13,6 +14,15 @@
 
 .alert-info{
     background-color: var(--info);
+=======
+.alert {
+  min-width: 25rem;
+  border-radius: 10px;
+}
+
+.alert-info {
+  background-color: var(--info);
+>>>>>>> Stashed changes
 }
 
 .alert-success{
