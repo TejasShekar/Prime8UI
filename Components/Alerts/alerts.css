@@ -1,20 +1,3 @@
-<<<<<<< Updated upstream
-.alert{
-    min-width: 25rem;
-    display: flex;
-    align-items: center;
-    padding: 0rem 1rem;
-    justify-content: space-between;
-    border-radius: 10px;
-}
-
-.alert > *{
-    color: black;
-}
-
-.alert-info{
-    background-color: var(--info);
-=======
 .alert {
   min-width: 25rem;
   border-radius: 10px;
@@ -22,7 +5,6 @@
 
 .alert-info {
   background-color: var(--info);
->>>>>>> Stashed changes
 }
 
 .alert-success{
