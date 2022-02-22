@@ -1,28 +1,23 @@
 .alert {
   min-width: 25rem;
-  display: flex;
-  align-items: center;
-  padding: 0rem 1rem;
-  justify-content: space-between;
   border-radius: 10px;
-}
-
-.alert > * {
-  color: black;
 }
 
 .alert-info {
   background-color: var(--info);
 }
 
-.alert-success {
-  background-color: var(--success);
+.alert-success{
+    background-color: var(--success);
+
 }
 
-.alert-danger {
-  background-color: var(--danger);
+.alert-danger{
+    background-color: var(--danger);
+
 }
 
-.alert-warn {
-  background-color: var(--warn);
+.alert-warn{
+    background-color: var(--warn);
+
 }

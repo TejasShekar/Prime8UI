@@ -1,13 +1,12 @@
 .input-container {
-  width: 300px;
-  margin: 1rem auto;
+  width: 20rem;
   font-weight: bold;
 }
 
 .input-label,
-#text-input,
-#success-input,
-#error-input {
+.text-input,
+.success-input,
+.error-input {
   width: 100%;
   margin: 10px 0 0 0;
 }
@@ -20,20 +19,16 @@ input[type="password"] {
   border-radius: 5px;
 }
 
-#text-input:focus {
-  border: 3px solid var(--primary);
+.text-input:focus {
+  border: 2px solid var(--primary-dark);
 }
 
-#success-input {
-  border: 3px solid var(--success);
+.success-input {
+  border: 2px solid var(--success);
 }
 
-#error-input {
-  border: 3px solid var(--danger);
-}
-
-.gap-0 {
-  gap: 0;
+.error-input {
+  border: 2px solid var(--danger);
 }
 
 .error-message {

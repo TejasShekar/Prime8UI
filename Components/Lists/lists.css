@@ -1,23 +1,20 @@
 .spaced-list {
-  background-color: var(--primary);
-  color: var(--secondary);
-  display: flex;
-  margin: 1rem;
-  padding: 0;
+  border: 1px solid var(--text-color);
+}
+
+.spaced-list li, .stacked-list li {
+  margin: 10px;
 }
 
 .stacked-list {
-  background-color: var(--primary);
-  color: var(--secondary);
-  padding: 1rem 0;
+  border: 1px solid var(--text-color);
   min-width: 200px;
 }
 
 .list-title {
-  padding: 0 0 1rem 1rem;
   font-size: large;
   font-weight: bold;
-  border-bottom: 1px solid var(--secondary);
+  border-bottom: 1px solid var(--text-color);
 }
 
 li:hover {

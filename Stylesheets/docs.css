@@ -1,0 +1,48 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  border-bottom: 2px solid var(--primary-dark);
+  background-color: var(--bg-dark);
+}
+
+.brand-name {
+  font-family: "Audiowide", cursive;
+  color: var(--primary-dark);
+  text-shadow: -3px 1px #00e1db;
+}
+
+.active {
+  color: var(--text-color);
+  text-decoration: underline var(--primary-dark);
+  font-weight: bold;
+}
+
+.component-name {
+  color: var(--primary-dark);
+}
+
+.span {
+  font-weight: bold;
+  color: var(--primary-dark);
+}
+
+.alert > *{
+  color: var(--secondary);
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+}
+
+.code-block {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.side-nav {
+  position: sticky;
+  top: 4.625rem;
+  height: calc(100vh - 6rem);
+}

@@ -2,9 +2,13 @@
   display: none;
 }
 
-.rating-container label {
+.fa-star {
   cursor: pointer;
-  color: var(--idle);
+  color: var(--yellow);
+}
+
+.fa-star:hover{
+  color: var(--yellow);
 }
 
 .rating-container input:not(:checked) + label {
