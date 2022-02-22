@@ -59,6 +59,6 @@ span {
 
 aside {
   position: sticky;
-  top: 6rem;
+  top: 4.625rem;
   height: calc(100vh - 6rem);
 }
