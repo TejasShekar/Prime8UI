@@ -34,7 +34,7 @@
   color: var(--primary-dark);
 }
 
-span {
+.span {
   font-weight: bold;
   color: var(--primary-light);
 }
@@ -57,7 +57,7 @@ span {
   font-size: 1.1rem;
 }
 
-aside {
+.side-nav {
   position: sticky;
   top: 4.625rem;
   height: calc(100vh - 6rem);

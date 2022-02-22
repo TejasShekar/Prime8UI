@@ -63,7 +63,5 @@ ul {
 button {
   cursor: pointer;
   text-align: center;
-  outline: none;
   border: none;
-  /* background-color: white; */
 }
