@@ -14,7 +14,7 @@ There are two ways by which you can load this component library into your projec
 ```
 <p align="center">OR</p>
 
-- Add the below `code` tag in the main stylesheet of your project.
+- Add the below `code` in the main stylesheet of your project.
 ```css
 @import "https://prime8-ui.netlify.app/styles.css";
 ```
