@@ -65,6 +65,10 @@
   gap: 1rem;
 }
 
+.g-2{
+  gap: 2rem;
+}
+
 /* text */
 .text-center{
   text-align: center;
