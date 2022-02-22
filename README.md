@@ -26,23 +26,39 @@ There are two ways by which you can load this component library into your projec
 ## Components List
 
 - [Alert](https://prime8-ui.netlify.app/components/alerts/alerts)
-
+    - Basic alerts of 4 types
 - [Avatar](https://prime8-ui.netlify.app/components/avatar/avatar)
-
+    - Image Avatars
+    - Text Avatars
 - [Badge](https://prime8-ui.netlify.app/components/badge/badge)
-
+    - Badge on Avatars
+    - Badge on Icons
 - [Button](https://prime8-ui.netlify.app/components/buttons/button)
-
+    - Standard Buttons
+    - Link Button
+    - Icon Buttons
+    - Floating action Buttons
 - [Cards](https://prime8-ui.netlify.app/components/cards/cards)
-
+    - Simple Card
+    - Text-only Card
+    - Card with badge
+    - Card with dismiss button
+    - Card with text overlay
+    - Horizontal Card
+    - Card with shadow
 - [Images](https://prime8-ui.netlify.app/components/images/images)
-
+    - Responsive Image
+    - Round Image
 - [Input](https://prime8-ui.netlify.app/components/input/input)
-
+    - Simple Input
+    - Input with validation
 - [Lists](https://prime8-ui.netlify.app/components/lists/lists)
-
+    - Spaced List
+    - Stacked List
 - [Rating](https://prime8-ui.netlify.app/components/rating/rating)
-
+    - Star Rating
 - [Slider](https://prime8-ui.netlify.app/components/slider/slider)
-
+    - Simple Slider
 ---
+
+![preview](https://user-images.githubusercontent.com/68545229/155191739-71516088-485a-4675-854a-86c22bb56ce2.gif)
