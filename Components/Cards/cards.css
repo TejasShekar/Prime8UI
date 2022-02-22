@@ -1,11 +1,15 @@
 .card {
   max-width: 17rem;
   position: relative;
+<<<<<<< Updated upstream
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   border: 1px solid var(--primary);
+=======
+  border: 2px solid var(--primary-dark);
+>>>>>>> Stashed changes
   border-radius: 0.5rem;
 }
 
@@ -17,10 +21,14 @@
 }
 
 .card-info {
+<<<<<<< Updated upstream
   display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: space-between;
+=======
+  text-align: center;
+>>>>>>> Stashed changes
   height: 100%;
 }
 
@@ -37,7 +45,10 @@
 }
 
 .price-info {
+<<<<<<< Updated upstream
   display: flex;
+=======
+>>>>>>> Stashed changes
   justify-content: center;
   margin: 0.75rem;
 }
@@ -73,6 +84,7 @@
 
 /* card with badge */
 .card-badge {
+<<<<<<< Updated upstream
   color: var(--secondary);
   font-size: 0.7rem;
   font-weight: bold;
@@ -81,25 +93,44 @@
   left: 0;
   background-color: var(--primary);
   padding: 0rem 0.2rem;
+=======
+  background-color: var(--primary-dark);
+  color: var(--secondary);
+  font-weight: bold;
+  position: absolute;
+  top: 7px;
+  left: -1px;
+>>>>>>> Stashed changes
 }
 
 /* card with dismiss */
 .dismiss-btn {
+<<<<<<< Updated upstream
   cursor: pointer;
   background-color: transparent;
   position: absolute;
   right: -5px;
+=======
+  background-color: transparent;
+  position: absolute;
+  right: 0px;
+>>>>>>> Stashed changes
 }
 
 /* card with overlay */
 .overlay {
+<<<<<<< Updated upstream
   background-color: rgba(0, 0, 0, 0.6);
+=======
+  background-color: rgba(0, 0, 0, 0.75);
+>>>>>>> Stashed changes
   border-radius: 0.5rem;
   width: 100%;
   height: 100%;
   position: absolute;
   top: 0;
   left: 0;
+<<<<<<< Updated upstream
   display: flex;
   justify-content: center;
   align-items: center;
@@ -110,6 +141,14 @@
   background-color: var(--danger);
   width: 100%;
   padding: 0.5rem 0rem;
+=======
+  text-align: center;
+}
+
+.overlay div {
+  background-color: var(--danger);
+  width: 100%;
+>>>>>>> Stashed changes
   font-size: medium;
   font-weight: bold;
 }
@@ -118,8 +157,12 @@
 .card-horizontal {
   width: 35rem;
   position: relative;
+<<<<<<< Updated upstream
   display: flex;
   border: 1px solid var(--primary);
+=======
+  border: 2px solid var(--primary-dark);
+>>>>>>> Stashed changes
   border-radius: 0.5rem;
 }
 
@@ -129,12 +172,15 @@
   width: 50%;
 }
 
+<<<<<<< Updated upstream
 .card-details {
   display: flex;
   flex-direction: column;
   margin: auto;
 }
 
+=======
+>>>>>>> Stashed changes
 .card-details button {
   width: 97%;
   margin: 0.25rem;
@@ -142,10 +188,15 @@
 
 /* card with shadow */
 .card-shadow {
+<<<<<<< Updated upstream
   box-shadow: var(--primary) 0px 5px 15px;
 }
+=======
+  box-shadow: var(--primary-light) 0px 0px 15px;
+}
 
-/* Dismiss btn */
+/* Show Card Button */
 .show-card-btn{
   display: none;
 }
+>>>>>>> Stashed changes

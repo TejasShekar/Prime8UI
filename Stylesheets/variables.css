@@ -1,0 +1,22 @@
+:root {
+  /* colors*/
+  --primary-dark: #ff9604;
+  --primary-light: #d87e00;
+  --bg-dark: #252525;
+  --bg-light: #ffffff;
+  --secondary: #252525;
+  --text-color: #e0e0e0;
+  --lightGrey: #8f8f8fb4;
+
+  /* badges colors*/
+  --green: #26c426;
+  --red: #ff0000;
+  --yellow: #ffd518;
+
+  /* alert colors */
+  --info: #94e9e0;
+  --success: #00df5d;
+  --danger: #e73737;
+  --warn: #f19d00;
+  
+}

@@ -19,9 +19,6 @@
 
 .avatar-text {
   border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--primary);
+  background-color: var(--primary-dark);
   color: var(--secondary);
 }

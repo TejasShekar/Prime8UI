@@ -1,6 +1,9 @@
 .input-container {
   width: 300px;
+<<<<<<< Updated upstream
   margin: 1rem auto;
+=======
+>>>>>>> Stashed changes
   font-weight: bold;
 }
 
@@ -21,6 +24,7 @@ input[type="password"] {
 }
 
 #text-input:focus {
+<<<<<<< Updated upstream
   border: 3px solid var(--primary);
 }
 
@@ -34,6 +38,17 @@ input[type="password"] {
 
 .gap-0 {
   gap: 0;
+=======
+  border: 2px solid var(--primary-dark);
+}
+
+#success-input {
+  border: 2px solid var(--success);
+}
+
+#error-input {
+  border: 2px solid var(--danger);
+>>>>>>> Stashed changes
 }
 
 .error-message {

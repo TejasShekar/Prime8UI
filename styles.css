@@ -1,6 +1,8 @@
-@import url(./Styles/reset.css);
-@import url(./Styles/variables.css);
-@import url(./Styles/docs.css);
+@import url(./Stylesheets/reset.css);
+@import url(./Stylesheets/variables.css);
+@import url(./Stylesheets/spacing.css);
+@import url(./Stylesheets/utility.css);
+@import url(./Stylesheets/docs.css);
 @import url(./Components/Avatar/avatar.css);
 @import url(./Components/Badge/badge.css);
 @import url(./Components/Alerts/alerts.css);

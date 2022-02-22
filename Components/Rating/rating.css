@@ -2,9 +2,19 @@
   display: none;
 }
 
+<<<<<<< Updated upstream
 .rating-container label {
   cursor: pointer;
   color: var(--idle);
+=======
+.fa-star {
+  cursor: pointer;
+  color: var(--yellow);
+}
+
+.fa-star:hover{
+  color: var(--yellow);
+>>>>>>> Stashed changes
 }
 
 .rating-container input:not(:checked) + label {
