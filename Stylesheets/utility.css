@@ -16,6 +16,11 @@
   justify-content: space-between;
 }
 
+.flex-c {
+  display: flex;
+  justify-content: center;
+}
+
 .flex-c-fe {
   display: flex;
   justify-content: center;
@@ -58,4 +63,18 @@
 
 .g-1 {
   gap: 1rem;
+}
+
+/* text */
+.text-center{
+  text-align: center;
+}
+
+/* position */
+.pos-relative{
+  position: relative;
+}
+
+.pos-abs {
+  position: absolute;
 }

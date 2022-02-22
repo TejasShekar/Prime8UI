@@ -1,6 +1,5 @@
 .card {
   max-width: 17rem;
-  position: relative;
   border: 2px solid var(--primary-dark);
   border-radius: 0.5rem;
 }
@@ -30,7 +29,6 @@
 }
 
 .price-info {
-  justify-content: center;
   margin: 0.75rem;
 }
 
@@ -68,7 +66,6 @@
   background-color: var(--primary-dark);
   color: var(--secondary);
   font-weight: bold;
-  position: absolute;
   top: 7px;
   left: -1px;
 }
@@ -76,7 +73,6 @@
 /* card with dismiss */
 .dismiss-btn {
   background-color: transparent;
-  position: absolute;
   right: 0px;
 }
 
@@ -86,7 +82,6 @@
   border-radius: 0.5rem;
   width: 100%;
   height: 100%;
-  position: absolute;
   top: 0;
   left: 0;
   text-align: center;
@@ -102,7 +97,6 @@
 /* horizontal card */
 .card-horizontal {
   width: 35rem;
-  position: relative;
   border: 2px solid var(--primary-dark);
   border-radius: 0.5rem;
 }

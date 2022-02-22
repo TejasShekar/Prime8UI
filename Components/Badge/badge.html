@@ -64,13 +64,13 @@
           <h2>Badge on Avatar</h2>
           <p>
             Badge on Avatar can be used to show different user status, such as
-            offline, idle and online. Use class <span>badge-L</span>,
-            <span>badge</span> or <span>badge-S</span> according to size of the
+            offline, idle and online. Use class <span class="span">badge-L</span>,
+            <span class="span">badge</span> or <span class="span">badge-S</span> according to size of the
             avatar used. Regular size is set as default for
-            <span>badge</span> class.
+            <span class="span">badge</span> class.
           </p>
           <div class="flex-c-fe flex-wrap g-1 m-1">
-            <div class="badge-container">
+            <div class="badge-container pos-relative">
               <figure class="avatar avatar-L">
                 <img
                   class="img-responsive img-round"
@@ -78,9 +78,9 @@
                   alt="avatar"
                 />
               </figure>
-              <div class="badge flex-center badge-L online"></div>
+              <div class="badge pos-abs flex-center badge-L online"></div>
             </div>
-            <div class="badge-container">
+            <div class="badge-container pos-relative">
               <figure class="avatar">
                 <img
                   class="img-responsive img-round"
@@ -88,9 +88,9 @@
                   alt="avatar"
                 />
               </figure>
-              <div class="badge flex-center idle"></div>
+              <div class="badge pos-abs flex-center idle"></div>
             </div>
-            <div class="badge-container">
+            <div class="badge-container pos-relative">
               <figure class="avatar avatar-S">
                 <img
                   class="img-responsive img-round"
@@ -98,7 +98,7 @@
                   alt="avatar"
                 />
               </figure>
-              <div class="badge flex-center badge-S offline"></div>
+              <div class="badge pos-abs flex-center badge-S offline"></div>
             </div>
           </div>
           <div class="code-block"></div>
@@ -107,22 +107,22 @@
           <h2>Badge on Icon</h2>
           <p>Badge on Icon can be used to show count information.</p>
           <div class="flex-c-fe flex-wrap g-1 m-1">
-            <div class="badge-icon-container">
+            <div class="badge-icon-container pos-relative">
               <div>
                 <i class="fas fa-bell fa-3x"></i>
               </div>
-              <div class="notification-icon badge flex-center">1</div>
+              <div class="notification-icon badge pos-abs flex-center">1</div>
             </div>
-            <div class="badge-icon-container">
+            <div class="badge-icon-container pos-relative">
               <div>
                 <i class="fas fa-envelope fa-3x"></i>
-                <div class="notification-icon badge flex-center">1</div>
+                <div class="notification-icon badge pos-abs flex-center">1</div>
               </div>
             </div>
-            <div class="badge-icon-container">
+            <div class="badge-icon-container pos-relative">
               <div>
                 <i class="fas fa-shopping-cart fa-3x"></i>
-                <div class="notification-icon badge flex-center">1</div>
+                <div class="notification-icon badge pos-abs flex-center">1</div>
               </div>
             </div>
           </div>
