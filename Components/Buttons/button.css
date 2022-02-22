@@ -1,12 +1,6 @@
 .btn {
   background-color: var(--secondary);
-<<<<<<< Updated upstream
-  cursor: pointer;
-  padding: 0.5rem 1rem;
-  font-size: 1.5rem;
-=======
   font-size: 1.3rem;
->>>>>>> Stashed changes
   border: 1px solid transparent;
   border-radius: 0.475rem;
   font-weight: bold;
@@ -14,39 +8,26 @@
 
 .btn-primary {
   color: var(--secondary);
-<<<<<<< Updated upstream
-  background-color: var(--primary);
-=======
   background-color: var(--primary-dark);
 }
 
 .btn-primary:hover{
   background-color: var(--primary-light);
->>>>>>> Stashed changes
 }
 
 .btn-secondary {
   color: var(--primary);
-<<<<<<< Updated upstream
-  background-color: var(--secondary);
-  border: 1px solid var(--primary);
-=======
   border: 2px solid var(--primary-dark);
 }
 
 .btn-secondary:hover{
   color: var(--secondary);
   background-color: var(--primary-dark);
->>>>>>> Stashed changes
 }
 
 .btn-link:hover {
   border-radius: 0;
-<<<<<<< Updated upstream
-  border-bottom: 1px solid var(--primary);
-=======
   text-decoration: underline var(--primary-dark) 3px;
->>>>>>> Stashed changes
 }
 
 .btn-icon,
@@ -57,9 +38,5 @@
 
 .btn-icon:hover,
 .btn-float:hover {
-<<<<<<< Updated upstream
-  color: var(--primary);
-=======
   color: var(--primary-dark);
->>>>>>> Stashed changes
 }

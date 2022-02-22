@@ -19,26 +19,31 @@
     />
   </head>
   <body>
-    <header class="header">
-      <a class="brand-name" href="../../index.html"><h1>PRIME 8</h1></a>
-      <nav class="header-nav">
-        <ul class="nav-list">
-          <li><a class="active" href="#">Documentation</a></li>
+    <header class="header flex-sbw-c flex-wrap">
+      <a class="brand-name p-sm m-1" href="../../index.html"
+        ><h1>PRIME 8</h1></a
+      >
+      <nav class="header-nav my-auto mx-0">
+        <ul class="nav-list flex">
+          <li><a class="p-sm m-sm active" href="#">Documentation</a></li>
           <li>
-            <a href="https://github.com/TejasShekar/Prime8UI" target="_blank"
+            <a
+              class="p-sm m-sm"
+              href="https://github.com/TejasShekar/Prime8UI"
+              target="_blank"
               >Contribute <i class="fab fa-github"></i
             ></a>
           </li>
         </ul>
       </nav>
     </header>
-    <div class="wrapper">
-      <aside>
+    <div class="wrapper grid grid-20-80">
+      <aside class="ml-3">
         <ul>
-          <li><a class="active" href="#">Alert</a></li>
-          <li><a href="../Avatar/avatar.html">Avatar</a></li>
-          <li><a href="../Badge/badge.html">Badge</a></li>
-          <li><a href="../Buttons/button.html">Button</a></li>
+          <li><a class="active" href="#">Alerts</a></li>
+          <li><a href="../Avatar/avatar.html">Avatars</a></li>
+          <li><a href="../Badge/badge.html">Badges</a></li>
+          <li><a href="../Buttons/button.html">Buttons</a></li>
           <li><a href="../Cards/cards.html">Cards</a></li>
           <li><a href="../Images/images.html">Images</a></li>
           <li><a href="../Input/input.html">Input</a></li>
@@ -47,47 +52,48 @@
           <li><a href="../Slider/slider.html">Slider</a></li>
         </ul>
       </aside>
-      <main class="main-container">
-        <section>
-          <h1>Alerts</h1>
+      <main>
+        <section class="m-2">
+          <h1 class="component-name">Alerts</h1>
           <p>
             Alerts are used to convey a message to the user based on their
             actions.
           </p>
         </section>
-        <section>
+        <section class="m-2">
           <h2>Types of Alerts</h2>
           <p>
             You can use the 4 types of alerts provided below by using their
-            respective class names.
+            respective class names as shown in the code block below.
           </p>
 
-          <div class="demo-container">
-            <div class="alert alert-info">
+          <div class="flex-c-fe flex-wrap g-1 m-1">
+            <div class="alert flex-sbw px-1 p-sm m-sm alert-info">
               <h3>Info Alert Message</h3>
               <a href="#"><i class="fas fa-times"></i></a>
             </div>
-            <div class="alert alert-success">
+            <div class="alert flex-sbw px-1 p-sm m-sm alert-success">
               <h3>Success Alert Message</h3>
               <a href="#"><i class="fas fa-times"></i></a>
             </div>
-            <div class="alert alert-danger">
+            <div class="alert flex-sbw px-1 p-sm m-sm alert-danger">
               <h3>Danger Alert Message</h3>
               <a href="#"><i class="fas fa-times"></i></a>
             </div>
-            <div class="alert alert-warn">
+            <div class="alert flex-sbw px-1 p-sm m-sm alert-warn">
               <h3>Warning Alert Message</h3>
               <a href="#"><i class="fas fa-times"></i></a>
             </div>
           </div>
-          <div class="code-block">
-            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FTejasShekar%2FPrime8UI%2Fblob%2F62eaae8f44f7488ad42164f8e2d1ef80b3437308%2FComponents%2FAlerts%2Falerts.html%23L67-L82&style=a11y-dark&showBorder=on&showCopy=on"></script>
-          </div>
+          <div class="code-block"></div>
         </section>
       </main>
     </div>
     <footer class="footer">
-      Made by<a href="https://github.com/TejasShekar" target="_blank">Tejas</a>
+      Made by
+      <a href="https://github.com/TejasShekar" target="_blank">
+        <span>Tejas</span>
+      </a>
     </footer>
   </body>
 </html>
