@@ -1,5 +1,7 @@
+/* Have hardcode several color values since dark mode toggles primary color which affects consistency in component colors*/
+
 .btn {
-  background-color: var(--secondary);
+  background-color: var(--bg-color);
   font-size: 1.2rem;
   border: 1px solid transparent;
   border-radius: 0.475rem;
@@ -8,26 +10,26 @@
 
 .btn-primary {
   color: var(--secondary);
-  background-color: var(--primary-dark);
+  background-color: #eea53f;
 }
 
 .btn-primary:hover{
-  background-color: var(--primary-light);
+  background-color: #d87e00;
 }
 
 .btn-secondary {
-  color: var(--primary);
-  border: 2px solid var(--primary-dark);
+  color: var(--text-color);
+  border: 2px solid var(--primary);
 }
 
 .btn-secondary:hover{
   color: var(--secondary);
-  background-color: var(--primary-dark);
+  background-color: var(--primary);
 }
 
 .btn-link:hover {
   border-radius: 0;
-  text-decoration: underline var(--primary-dark) 3px;
+  text-decoration: underline var(--primary) 3px;
 }
 
 .btn-icon,
@@ -38,5 +40,5 @@
 
 .btn-icon:hover,
 .btn-float:hover {
-  color: var(--primary-dark);
+  color: var(--primary);
 }

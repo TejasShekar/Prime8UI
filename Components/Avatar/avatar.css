@@ -19,6 +19,6 @@
 
 .avatar-text {
   border-radius: 50%;
-  background-color: var(--primary-dark);
+  background-color: #eea53f; /* will have to hardcode value since dark mode toggles primary color*/
   color: var(--secondary);
 }

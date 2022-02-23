@@ -12,5 +12,5 @@
 }
 
 .rating-container input:not(:checked) + label {
-  color: var(--lightGrey);
+  color: var(--light-grey);
 }

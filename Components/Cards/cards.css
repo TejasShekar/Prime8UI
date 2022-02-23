@@ -1,6 +1,6 @@
 .card {
   max-width: 17rem;
-  border: 2px solid var(--primary-dark);
+  border: 2px solid var(--primary);
   border-radius: 0.5rem;
 }
 
@@ -63,7 +63,7 @@
 
 /* card with badge */
 .card-badge {
-  background-color: var(--primary-dark);
+  background-color: var(--primary);
   color: var(--secondary);
   font-weight: bold;
   top: 7px;
@@ -97,7 +97,7 @@
 /* horizontal card */
 .card-horizontal {
   width: 35rem;
-  border: 2px solid var(--primary-dark);
+  border: 2px solid var(--primary);
   border-radius: 0.5rem;
 }
 
@@ -114,7 +114,7 @@
 
 /* card with shadow */
 .card-shadow {
-  box-shadow: var(--primary-light) 0px 0px 15px;
+  box-shadow: var(--primary) 0px 0px 15px;
 }
 
 /* Show Card Button */
