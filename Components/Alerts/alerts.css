@@ -20,5 +20,8 @@
 
 .alert-warn{
     background-color: var(--warn);
+}
 
+.alert i{
+  color: var(--secondary);
 }
