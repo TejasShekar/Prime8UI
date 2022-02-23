@@ -2,33 +2,29 @@
   position: sticky;
   top: 0;
   z-index: 1;
-  border-bottom: 2px solid var(--primary-dark);
-  background-color: var(--bg-dark);
+  border-bottom: 2px solid var(--primary);
+  background-color: var(--bg-color);
 }
 
 .brand-name {
   font-family: "Audiowide", cursive;
-  color: var(--primary-dark);
+  color: #eea53f; /* will have to hardcode value since dark mode toggles primary color*/
   text-shadow: -3px 1px #00e1db;
 }
 
 .active {
   color: var(--text-color);
-  text-decoration: underline var(--primary-dark);
+  text-decoration: underline var(--primary);
   font-weight: bold;
 }
 
 .component-name {
-  color: var(--primary-dark);
+  color: var(--primary);
 }
 
 .span {
   font-weight: bold;
-  color: var(--primary-dark);
-}
-
-.alert > *{
-  color: var(--secondary);
+  color: var(--primary);
 }
 
 .footer {
@@ -37,6 +33,7 @@
 }
 
 .code-block {
+  font-size: 0.85rem;
   max-width: 80%;
   margin: 0 auto;
 }
@@ -45,4 +42,9 @@
   position: sticky;
   top: 4.625rem;
   height: calc(100vh - 6rem);
+}
+
+.theme-toggle{
+  background-color: transparent;
+  color: var(--text-color);
 }

@@ -1,6 +1,7 @@
 .alert {
   min-width: 25rem;
   border-radius: 10px;
+  color: var(--secondary);
 }
 
 .alert-info {
@@ -19,5 +20,8 @@
 
 .alert-warn{
     background-color: var(--warn);
+}
 
+.alert i{
+  color: var(--secondary);
 }

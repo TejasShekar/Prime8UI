@@ -1,12 +1,25 @@
 :root {
   /* colors*/
-  --primary-dark: #eea53f;
-  --primary-light: #d87e00;
-  --bg-dark: #252525;
-  --bg-light: #ffffff;
-  --secondary: #252525;
+
+    /* dark mode */
+   --primary: #eea53f; 
+   /*--primary-dark */
+  --bg-color: #252525; 
+  /*--bg-dark*/
   --text-color: #e0e0e0;
-  --lightGrey: #8f8f8fb4;
+  --link-color: #eea53f;
+
+    /* light mode */
+  /* --primary: #d87e00;  */
+  /* --primary-light */
+  /* --bg-color: #ffffff;   */
+  /* --bg-light */
+  /* --text-color: #000; */
+  /* --link-color: #000; */
+
+  /* common colors */
+  --light-grey: #8f8f8fb4;
+  --secondary: #252525;
 
   /* badges colors*/
   --green: #26c426;
