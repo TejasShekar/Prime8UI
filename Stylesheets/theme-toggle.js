@@ -12,19 +12,7 @@ const darkTheme = {
   "--link-color": "#eea53f",
 };
 
-const toggleTheme = () => {
-  if (themeBtn.classList.contains("fa-moon")) {
-    localStorage.setItem("xTheme", "dark");
-    themeBtn.classList.remove("fa-moon");
-    themeBtn.classList.add("fa-sun");
-    setTheme(darkTheme);
-  } else {
-    localStorage.setItem("xTheme", "light");
-    themeBtn.classList.remove("fa-sun");
-    themeBtn.classList.add("fa-moon");
-    setTheme(lightTheme);
-  }
-};
+const themeBtn = document.querySelector(".theme-toggle");
 
 const setTheme = (theme) => {
   const root = document.querySelector(":root");
@@ -33,14 +21,27 @@ const setTheme = (theme) => {
   }
 };
 
-const themeBtn = document.querySelector(".theme-toggle");
+const toggleTheme = () => {
+  if (themeBtn.classList.contains("fa-moon")) {
+    localStorage.setItem("currentTheme", "dark");
+    themeBtn.classList.remove("fa-moon");
+    themeBtn.classList.add("fa-sun");
+    setTheme(darkTheme);
+  } else {
+    localStorage.setItem("currentTheme", "light");
+    themeBtn.classList.remove("fa-sun");
+    themeBtn.classList.add("fa-moon");
+    setTheme(lightTheme);
+  }
+};
+
 themeBtn.addEventListener("click", toggleTheme);
 
-if (localStorage.getItem("xTheme") === "dark") {
+if (localStorage.getItem("currentTheme") === "dark") {
   setTheme(darkTheme);
   themeBtn.classList.add("fa-sun");
   themeBtn.classList.remove("fa-moon");
-}else{
+} else {
   setTheme(lightTheme);
   themeBtn.classList.add("fa-moon");
   themeBtn.classList.remove("fa-sun");
