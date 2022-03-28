@@ -1,5 +1,5 @@
-@import url(./Stylesheets/variables.css);
 @import url(./Stylesheets/reset.css);
+@import url(./Stylesheets/variables.css);
 @import url(./Stylesheets/spacing.css);
 @import url(./Stylesheets/utility.css);
 @import url(./Stylesheets/docs.css);
