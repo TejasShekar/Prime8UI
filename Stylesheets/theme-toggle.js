@@ -14,13 +14,6 @@ const toggleTheme = () => {
   }
 };
 
-const setTheme = (theme) => {
-  const root = document.querySelector(":root");
-  for (key in theme) {
-    root.style.setProperty(key, theme[key]);
-  }
-};
-
 themeBtn.addEventListener("click", toggleTheme);
 
 if (localStorage.getItem("prime8_theme") === "dark") {
