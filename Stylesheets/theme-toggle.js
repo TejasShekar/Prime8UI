@@ -1,28 +1,16 @@
-const lightTheme = {
-  "--primary": "#d87e00",
-  "--bg-color": "#ffffff",
-  "--text-color": "#000",
-  "--link-color": "#000"
-};
-
-const darkTheme = {
-    "--primary": "#eea53f",
-    "--bg-color": "#252525",
-    "--text-color": "#e0e0e0",
-    "--link-color": "#eea53f"
-};
+const themeBtn = document.querySelector(".theme-toggle");
 
 const toggleTheme = () => {
   if (themeBtn.classList.contains("fa-moon")) {
-    localStorage.setItem("xTheme", "dark");
-    themeBtn.classList.add("fa-sun");
+    localStorage.setItem("prime8_theme", "dark");
     themeBtn.classList.remove("fa-moon");
-    setTheme(darkTheme);
+    themeBtn.classList.add("fa-sun");
+    document.documentElement.className = "dark-theme";
   } else {
-    localStorage.setItem("xTheme", "light");
+    localStorage.setItem("prime8_theme", "light");
     themeBtn.classList.remove("fa-sun");
     themeBtn.classList.add("fa-moon");
-    setTheme(lightTheme);
+    document.documentElement.className = "light-theme";
   }
 };
 
@@ -33,11 +21,14 @@ const setTheme = (theme) => {
   }
 };
 
-const themeBtn = document.querySelector(".theme-toggle");
 themeBtn.addEventListener("click", toggleTheme);
 
-if (localStorage.getItem("xTheme") === "dark") {
-  setTheme(darkTheme);
-  themeBtn.classList.add("fa-sun");
+if (localStorage.getItem("prime8_theme") === "dark") {
+  document.documentElement.classList.toggle("dark-theme");
   themeBtn.classList.remove("fa-moon");
+  themeBtn.classList.add("fa-sun");
+} else {
+  document.documentElement.classList.toggle("light-theme");
+  themeBtn.classList.remove("fa-sun");
+  themeBtn.classList.add("fa-moon");
 }
