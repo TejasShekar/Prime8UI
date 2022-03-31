@@ -48,3 +48,12 @@
   background-color: transparent;
   color: var(--text-color);
 }
+
+.grid-demo{
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--text-color);
+  border-radius: 2rem;
+  width: 550px;
+  height: 300px;
+}
