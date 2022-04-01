@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Tejas Shekar" />
     <meta name="theme-color" content="#eea53f" />
-    <title>Prime8 | Lists</title>
+    <title>Prime8 | Toast</title>
     <link rel="stylesheet" href="../../styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -76,60 +76,42 @@
           <li><a href="../Grid/">Grids</a></li>
           <li><a href="../Images/">Images</a></li>
           <li><a href="../Input/">Input</a></li>
-          <li><a class="active" href="#">Lists</a></li>
+          <li><a href="../Lists/">Lists</a></li>
           <li><a href="../Modal/">Modal</a></li>
           <li><a href="../Navigation/">Navigation</a></li>
           <li><a href="../Rating/">Rating</a></li>
           <li><a href="../Slider/">Slider</a></li>
-          <li><a href="../Toast/">Toast</a></li>
+          <li><a class="active" href="#">Toast</a></li>
           <li><a href="../Typography/">Typography</a></li>
         </ul>
       </aside>
       <main>
         <section class="m-2">
-          <h1 class="component-name">Lists</h1>
+          <h1 class="component-name">Toast</h1>
           <p>
-            Lists are used to uniformly structure and present information to the
-            user.
+            Toast is used to display short messages to the user that disappears
+            after a few seconds.
           </p>
         </section>
         <section class="m-2">
-          <h2>Spaced List</h2>
-          <div class="flex-c-fe flex-wrap g-1 m-2">
-            <ul class="spaced-list flex m-1 p-1">
-              <li>Inbox</li>
-              <li>Sent</li>
-              <li>Drafts</li>
-              <li>Important</li>
-              <li>Trash</li>
-            </ul>
+          <h2>Demo</h2>
+          <div class="flex-center flex-wrap g-1">
+            <button class="btn py-sm px-1 btn-primary show-toast-btn">
+              Show Toast
+            </button>
+            <div class="toast flex-sbw px-1 p-sm m-sm toast-success">
+              <p>Added to Cart</p>
+              <button class="dismiss-toast-btn m-1">
+                <i class="fas fa-times"></i>
+              </button>
+            </div>
           </div>
           <p class="text-center">
-            Refer the below code to create a spaced list. Make changes as per
-            your requirements.
+            Refer the below code to use toasts. Make changes as per your
+            requirements.
           </p>
           <div class="code-block">
-            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FTejasShekar%2FPrime8UI%2Fblob%2F9c273c60a65305388cee02a4c2d551432a3ac0a9%2FComponents%2FLists%2Flists.html%23L66-L72&style=a11y-dark&showBorder=on&showCopy=on"></script>
-          </div>
-        </section>
-        <section class="m-2">
-          <h2>Stacked List</h2>
-          <div class="flex-c-fe flex-wrap g-1 m-2">
-            <ul class="stacked-list">
-              <div class="list-title p-1">Categories</div>
-              <li>Inbox</li>
-              <li>Sent</li>
-              <li>Drafts</li>
-              <li>Important</li>
-              <li>Trash</li>
-            </ul>
-          </div>
-          <p class="text-center">
-            Refer the below code to create a stacked list. Make changes as per
-            your requirements.
-          </p>
-          <div class="code-block">
-            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FTejasShekar%2FPrime8UI%2Fblob%2F9c273c60a65305388cee02a4c2d551432a3ac0a9%2FComponents%2FLists%2Flists.html%23L79-L86&style=a11y-dark&showBorder=on&showCopy=on"></script>
+            <script src=""></script>
           </div>
         </section>
       </main>
@@ -141,6 +123,6 @@
       </a>
     </footer>
     <script src="../../Stylesheets/theme-toggle.js"></script>
-
+    <script src="./toast.js"></script>
   </body>
 </html>
