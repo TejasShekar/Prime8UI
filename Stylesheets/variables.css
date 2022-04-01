@@ -14,6 +14,12 @@
   --success: #2eff84;
   --danger: #e73737;
   --warn: #f19d00;
+
+  /* Default Theme */
+  --primary: #eea53f;
+  --bg-color: #252525;
+  --text-color: #e0e0e0;
+  --link-color: #eea53f;
 }
 
 .dark-theme {
