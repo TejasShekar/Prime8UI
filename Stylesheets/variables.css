@@ -2,6 +2,7 @@
   /* common colors */
   --light-grey: #8f8f8fb4;
   --secondary: #252525;
+  --light-white: #f0f0f0;
 
   /* badges colors*/
   --green: #26c426;
@@ -10,7 +11,7 @@
 
   /* alert colors */
   --info: #94e9e0;
-  --success: #00df5d;
+  --success: #2eff84;
   --danger: #e73737;
   --warn: #f19d00;
 }

@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Tejas Shekar" />
-    <title>Prime8 | Rating</title>
+    <meta name="theme-color" content="#eea53f" />
+    <title>Prime8 | Modal</title>
     <link rel="stylesheet" href="../../styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -41,7 +42,6 @@
       color="#eea53f"
     />
     <meta name="msapplication-TileColor" content="#da532c" />
-    <meta name="theme-color" content="#ffffff" />
   </head>
   <body>
     <header class="header flex-sbw-c flex-wrap">
@@ -68,48 +68,56 @@
     <div class="wrapper grid grid-20-80">
       <aside class="side-nav ml-3">
         <ul>
-          <li><a href="../Alerts/alerts.html">Alerts</a></li>
-          <li><a href="../Avatar/avatar.html">Avatars</a></li>
-          <li><a href="../Badge/badge.html">Badges</a></li>
-          <li><a href="../Buttons/button.html">Buttons</a></li>
-          <li><a href="../Cards/cards.html">Cards</a></li>
-          <li><a href="../Images/images.html">Images</a></li>
-          <li><a href="../Input/input.html">Input</a></li>
-          <li><a href="../Lists/lists.html">Lists</a></li>
-          <li><a class="active" href="../Rating/rating.html">Rating</a></li>
-          <li><a href="../Slider/slider.html">Slider</a></li>
+          <li><a href="../Alerts/">Alerts</a></li>
+          <li><a href="../Avatar/">Avatars</a></li>
+          <li><a href="../Badge/">Badges</a></li>
+          <li><a href="../Buttons/">Buttons</a></li>
+          <li><a href="../Cards/">Cards</a></li>
+          <li><a href="../Grid/">Grids</a></li>
+          <li><a href="../Images/">Images</a></li>
+          <li><a href="../Input/">Input</a></li>
+          <li><a href="../Lists/">Lists</a></li>
+          <li><a class="active" href="#">Modal</a></li>
+          <li><a href="../Navigation/">Navigation</a></li>
+          <li><a href="../Rating/">Rating</a></li>
+          <li><a href="../Slider/">Slider</a></li>
+          <li><a href="../Toast/">Toast</a></li>
+          <li><a href="../Typography/">Typography</a></li>
         </ul>
       </aside>
       <main>
         <section class="m-2">
-          <h1 class="component-name">Rating</h1>
+          <h1 class="component-name">Modal</h1>
           <p>
-            Rating is used to display the overall reviews of an item or a
-            product.
+            Modal are windows displayed over the entire document such that it
+            grabs the attention of the user and demands an action, if required.
           </p>
         </section>
         <section class="m-2">
-          <h2>Star Rating</h2>
-          <div class="flex-c-fe flex-wrap g-1 m-2">
-            <div class="rating-container">
-              <input type="checkbox" id="star-1" checked disabled />
-              <label for="star-1" class="fas fa-star fa-2x"></label>
-              <input type="checkbox" id="star-2" checked disabled />
-              <label for="star-2" class="fas fa-star fa-2x"></label>
-              <input type="checkbox" id="star-3" checked disabled />
-              <label for="star-3" class="fas fa-star fa-2x"></label>
-              <input type="checkbox" id="star-4" disabled />
-              <label for="star-4" class="fas fa-star fa-2x"></label>
-              <input type="checkbox" id="star-5" disabled />
-              <label for="star-5" class="fas fa-star fa-2x"></label>
+          <h2>Demo</h2>
+          <div class="flex-center flex-wrap g-1">
+            <button class="btn py-sm px-1 btn-primary show-modal-btn">
+              Show Modal
+            </button>
+            <div class="modal">
+              <div class="modal-content p-2">
+                <h2 class="modal-text">Are you sure ?</h2>
+                <button class="modal-dismiss-btn">
+                  <i class="far fa-times-circle fa-2x"></i>
+                </button>
+                <div class="modal-btns mt-2 g-1">
+                  <button class="btn py-sm px-1 btn-primary">Yes</button>
+                  <button class="btn py-sm px-1 btn-secondary">No</button>
+                </div>
+              </div>
             </div>
           </div>
           <p class="text-center">
-            Copy the below code to create a 5 star rating. Make changes as per
-            your requirements.
+            Refer the below code to use the modal. Make
+            changes as per your requirements.
           </p>
           <div class="code-block">
-            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FTejasShekar%2FPrime8UI%2Fblob%2F9c273c60a65305388cee02a4c2d551432a3ac0a9%2FComponents%2FRating%2Frating.html%23L66-L77&style=a11y-dark&showBorder=on&showCopy=on"></script>
+            <script src=""></script>
           </div>
         </section>
       </main>
@@ -121,6 +129,6 @@
       </a>
     </footer>
     <script src="../../Stylesheets/theme-toggle.js"></script>
-
+    <script src="./modal.js"></script>
   </body>
 </html>
