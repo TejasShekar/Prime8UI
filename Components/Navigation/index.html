@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Tejas Shekar" />
     <meta name="theme-color" content="#eea53f" />
-    <title>Prime8 | Rating</title>
+    <title>Prime8 | Navigation</title>
     <link rel="stylesheet" href="../../styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -78,41 +78,61 @@
           <li><a href="../Input/">Input</a></li>
           <li><a href="../Lists/">Lists</a></li>
           <li><a href="../Modal/">Modal</a></li>
-          <li><a href="../Navigation/">Navigation</a></li>
-          <li><a class="active" href="#">Rating</a></li>
+          <li><a class="active" href="#">Navigation</a></li>
+          <li><a href="../Rating/">Rating</a></li>
           <li><a href="../Slider/">Slider</a></li>
         </ul>
       </aside>
       <main>
         <section class="m-2">
-          <h1 class="component-name">Rating</h1>
+          <h1 class="component-name">Navigation</h1>
           <p>
-            Rating is used to display the overall reviews of an item or a
-            product.
+            Navigation bar is used to navigate through the web apps or websites.
           </p>
         </section>
         <section class="m-2">
-          <h2>Star Rating</h2>
-          <div class="flex-c-fe flex-wrap g-1 m-2">
-            <div class="rating-container">
-              <input type="checkbox" id="star-1" checked disabled />
-              <label for="star-1" class="fas fa-star fa-2x"></label>
-              <input type="checkbox" id="star-2" checked disabled />
-              <label for="star-2" class="fas fa-star fa-2x"></label>
-              <input type="checkbox" id="star-3" checked disabled />
-              <label for="star-3" class="fas fa-star fa-2x"></label>
-              <input type="checkbox" id="star-4" disabled />
-              <label for="star-4" class="fas fa-star fa-2x"></label>
-              <input type="checkbox" id="star-5" disabled />
-              <label for="star-5" class="fas fa-star fa-2x"></label>
-            </div>
+          <h2>Demo</h2>
+          <div class="nav-demo flex-sbw-c flex-wrap g-1 border my-2 mx-auto">
+            <a class="brand-name my-auto mx-1" href="#"><h1>P8</h1></a>
+            <label>
+              <input
+                type="search"
+                id="search-box"
+                placeholder="Search for products"
+              />
+              <i class="fas fa-search search-btn"></i>
+            </label>
+            <nav class="mx-1">
+              <ul class="nav-list flex">
+                <li class="mx-0 my-auto">
+                  <a class="p-sm m-sm" href="#">
+                    <div class="pos-relative">
+                      <div>
+                        <i class="fas fa-shopping-cart fa-2x"></i>
+                        <div
+                          class="notification-icon badge pos-abs flex-center"
+                        >
+                          2
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li class="ml-sm my-auto">
+                  <a class="btn py-sm px-1 btn-link" href="#">Wishlist</a>
+                </li>
+                <li class="my-auto">
+                  <a class="btn py-sm px-1 btn-secondary" href="#">Logout</a>
+                </li>
+              </ul>
+            </nav>
           </div>
           <p class="text-center">
-            Copy the below code to create a 5 star rating. Make changes as per
-            your requirements.
+            Copy the below code to use the Navigation for desktop. Make changes as per your
+            requirements.
           </p>
           <div class="code-block">
-            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FTejasShekar%2FPrime8UI%2Fblob%2F9c273c60a65305388cee02a4c2d551432a3ac0a9%2FComponents%2FRating%2Frating.html%23L66-L77&style=a11y-dark&showBorder=on&showCopy=on"></script>
+            <script src=""></script>
           </div>
         </section>
       </main>
@@ -124,6 +144,6 @@
       </a>
     </footer>
     <script src="../../Stylesheets/theme-toggle.js"></script>
-
+    <script src="./modal.js"></script>
   </body>
 </html>
