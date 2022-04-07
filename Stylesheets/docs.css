@@ -8,7 +8,7 @@
 
 .brand-name {
   font-family: "Audiowide", cursive;
-  color: #eea53f; /* will have to hardcode value since dark mode toggles primary color*/
+  color: var(--primary);
   text-shadow: -3px 1px #00e1db;
 }
 

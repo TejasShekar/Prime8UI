@@ -42,8 +42,7 @@
 }
 
 .notification-icon {
-  /* will have to hardcode value since dark mode toggles primary color*/
-  background-color: #eea53f; 
+  background-color: var(--primary);
   color: var(--secondary);
   top: -10px;
   right: -15px;
