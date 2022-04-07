@@ -118,6 +118,10 @@
 }
 
 /* Show Card Button */
-.show-card-btn{
+.show-card-btn {
   display: none;
+}
+
+.cta {
+  width: 100%;
 }
