@@ -10,5 +10,5 @@ showBtn.addEventListener("click", function showToast() {
   toast.style.display = "flex";
   setTimeout(() => {
     toast.style.display = "none";
-  }, 3000);
+  }, 1500);
 });
