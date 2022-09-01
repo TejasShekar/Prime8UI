@@ -4,13 +4,14 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  border: 1px solid red;
 }
 
 html,
 body {
   scroll-behavior: smooth;
   font-family: "Montserrat", sans-serif;
-  line-height: 1.5rem;
+  line-height: 1.5;
   color: var(--text-color);
   background-color: var(--bg-color);
 }
@@ -19,26 +20,40 @@ html::-webkit-scrollbar {
   display: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-  line-height: 1.2;
-}
+/* Fluid Typography */
+/* So, the clamp function takes a min, preferred and max value. Using these three, it calculates what font-size should the element have based on the viewport width and root font size. The min & max values in the clamp makes sure that incase the preferred value crosses either of these limits, these values will be preferred for the rest of the range.
+
+For example, if I want h1 to vary between 1.5rem to 2rem for width range 480px-1280px, clamp will do the calculation based on current width and set that as h1 font-size. If width goes below 480px, the min value will be used as preferred value. Same behavior when screen size is more than 1280px
+
+Tools that helps with getting clamp range: 
+1. https://fluid-typography.netlify.app/
+2. https://utopia.fyi/type/calculator?c=320,16,1.125,1140,32,1.125,3,0,&s=0.75%7C0.5%7C0.25,1.5%7C2%7C3%7C4%7C6,s-l
+  This 2nd tool gives you like a proper typography set. All you need to do is to input the smallest text size that you will use in your site and provide a good range of screen size width. Type scale is the multiplier based on which your type system show grow. Keep it default. Then scroll down and enable to use clamp. This will show a set of variables that define your each step. Step-0 is your font-size for the small text (or maybe h5,h6) and step with the highest count will be your h1. You can have as many steps as you want, depending upon your requirements.*/
 
 h1 {
-  font-size: 2rem;
+  font-size: clamp(1.5rem, 1vw + 1.2rem, 2rem);
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: clamp(0.89rem, 0.36rem + 1.78vw, 1.78rem);
 }
 
 h3 {
-  font-size: 1.25rem;
+  font-size: clamp(0.79rem, 0.32rem + 1.58vw, 1.58rem);
+}
+
+h4 {
+  font-size: clamp(0.7rem, 0.28rem + 1.41vw, 1.41rem);
+}
+
+h5 {
+  font-size: clamp(0.63rem, 0.25rem + 1.25vw, 1.25rem);
+}
+
+h6,
+p,
+a {
+  font-size: clamp(0.56rem, 0.22rem + 1.11vw, 1.11rem);
 }
 
 li {
@@ -54,7 +69,7 @@ a {
   text-decoration: none;
   color: var(--link-color);
   outline: none;
-  font-size: 1.1rem;
+  /* font-size: 1.1rem; */
 }
 
 ul {
