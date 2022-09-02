@@ -1,27 +1,26 @@
 .alert {
-  min-width: 25rem;
+  max-width: fit-content;
   border-radius: 10px;
   color: var(--secondary);
+  font-weight: 500;
 }
 
 .alert-info {
   background-color: var(--info);
 }
 
-.alert-success{
-    background-color: var(--success);
-
+.alert-success {
+  background-color: var(--success);
 }
 
-.alert-danger{
-    background-color: var(--danger);
-
+.alert-danger {
+  background-color: var(--danger);
 }
 
-.alert-warn{
-    background-color: var(--warn);
+.alert-warn {
+  background-color: var(--warn);
 }
 
-.alert i{
+.alert i {
   color: var(--secondary);
 }
