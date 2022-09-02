@@ -1,9 +1,28 @@
+html::-webkit-scrollbar {
+  width: 14px;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: var(--primary);
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+}
+
 .header {
   position: sticky;
   top: 0;
   z-index: 1;
-  border-bottom: 2px solid var(--primary);
+  min-height: 5rem;
+  box-shadow: 0 0 10px var(--primary);
   background-color: var(--bg-color);
+}
+
+.main {
+  min-height: calc(100vh - 8rem);
 }
 
 .brand-name {
@@ -34,7 +53,7 @@
 
 .code-block {
   font-size: 0.85rem;
-  max-width: 80%;
+  max-width: 85%;
   margin: 0 auto;
 }
 
@@ -47,4 +66,10 @@
 .theme-toggle {
   background-color: transparent;
   color: var(--text-color);
+}
+
+@media screen and (max-width: 740px) {
+  .code-block code {
+    white-space: pre-line;
+  }
 }
