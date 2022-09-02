@@ -36,30 +36,27 @@
       href="../../Assets/favicon-16x16.png"
     />
     <link rel="manifest" href="../../Assets/site.webmanifest" />
-    <link
-      rel="mask-icon"
-      href="../../Assets/safari-pinned-tab.svg"
-      color="#eea53f"
-    />
+    <link rel="mask-icon" href="../../Assets/safari-pinned-tab.svg" color="#eea53f" />
     <meta name="msapplication-TileColor" content="#da532c" />
   </head>
   <body>
     <header class="header flex-sbw-c flex-wrap">
-      <a class="brand-name p-sm m-1" href="../../index.html"
-        ><h1>PRIME 8</h1></a
-      >
-      <nav class="header-nav my-auto mx-0">
+      <a class="brand-name p-sm m-sm" href="/"><h1>PRIME 8</h1></a>
+      <nav class="header-nav">
         <ul class="nav-list flex">
-          <li><a class="p-sm m-sm active" href="#">Documentation</a></li>
+          <li>
+            <a class="p-sm m-sm active" href="#">Documentation</a>
+          </li>
           <li>
             <a
               class="p-sm m-sm"
               href="https://github.com/TejasShekar/Prime8UI"
               target="_blank"
-              >Contribute <i class="fab fa-github"></i
+            >
+              <i class="fab fa-github"></i
             ></a>
           </li>
-          <li>
+          <li class="flex-center">
             <i class="theme-toggle px-2 fas fa-sun"></i>
           </li>
         </ul>
@@ -85,104 +82,101 @@
           <li><a href="../Typography/">Typography</a></li>
         </ul>
       </aside>
-      <main>
-        <section class="m-2">
-          <h1 class="component-name">Badges</h1>
-          <p>
-            Badge is used to show the status information of the user or
-            notification number or number of items in the cart.
-          </p>
-        </section>
-        <section class="m-2">
-          <h2>Badge on Avatar</h2>
-          <p>
-            Badge on Avatar can be used to show different user status, such as
-            offline, idle and online. Use class
-            <span class="span">badge-L</span>,
-            <span class="span">badge</span> or
-            <span class="span">badge-S</span> according to size of the avatar
-            used. Regular size is set as default for
-            <span class="span">badge</span> class.
-          </p>
-          <div class="flex-c-fe flex-wrap g-1 m-2">
-            <div class="badge-container pos-relative">
-              <figure class="avatar avatar-L">
+      <div>
+        <main>
+          <section class="m-2">
+            <h1 class="component-name">Badges</h1>
+            <p>
+              Badge is used to show the status information of the user or notification
+              number or number of items in the cart.
+            </p>
+          </section>
+          <section class="m-2">
+            <h2>Badge on Avatar</h2>
+            <p>
+              Badge on Avatar can be used to show different user status, such as offline,
+              idle and online. Use class
+              <span class="span">badge-L</span>, <span class="span">badge</span> or
+              <span class="span">badge-S</span> according to size of the avatar used.
+              Regular size is set as default for <span class="span">badge</span> class.
+            </p>
+            <div class="flex-c-fe flex-wrap g-1 m-2">
+              <div class="m-1 pos-relative">
                 <img
-                  class="img-responsive img-round"
+                  class="img-responsive img-round avatar avatar-L"
                   src="../../Assets/avatar-male.jpg"
                   alt="avatar"
                 />
-              </figure>
-              <div class="badge pos-abs flex-center badge-L online"></div>
-            </div>
-            <div class="badge-container pos-relative">
-              <figure class="avatar">
+                <div class="badge pos-abs flex-center badge-L online"></div>
+              </div>
+              <div class="m-1 pos-relative">
                 <img
-                  class="img-responsive img-round"
+                  class="img-responsive img-round avatar"
                   src="../../Assets/avatar-female.jpg"
                   alt="avatar"
                 />
-              </figure>
-              <div class="badge pos-abs flex-center idle"></div>
-            </div>
-            <div class="badge-container pos-relative">
-              <figure class="avatar avatar-S">
+                <div class="badge pos-abs flex-center idle"></div>
+              </div>
+              <div class="m-1 pos-relative">
                 <img
-                  class="img-responsive img-round"
+                  class="img-responsive img-round avatar avatar-S"
                   src="../../Assets/avatar-dog.jpg"
                   alt="avatar"
                 />
-              </figure>
-              <div class="badge pos-abs flex-center badge-S offline"></div>
-            </div>
-          </div>
-          <p class="text-center">
-            Refer the below code to use different variations of badges on avatar.
-            Make changes as per your requirements.
-          </p>
-          <div class="code-block">
-            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FTejasShekar%2FPrime8UI%2Fblob%2F9c273c60a65305388cee02a4c2d551432a3ac0a9%2FComponents%2FBadge%2Fbadge.html%23L73-L102&style=a11y-dark&showBorder=on&showCopy=on"></script>
-          </div>
-        </section>
-        <section class="m-2">
-          <h2>Badge on Icon</h2>
-          <p>Badge on Icon can be used to show count information.</p>
-          <div class="flex-c-fe flex-wrap g-1 m-1">
-            <div class="badge-icon-container pos-relative">
-              <div>
-                <i class="fas fa-bell fa-3x"></i>
+                <div class="badge pos-abs flex-center badge-S offline"></div>
               </div>
-              <div class="notification-icon badge pos-abs flex-center">1</div>
             </div>
-            <div class="badge-icon-container pos-relative">
-              <div>
-                <i class="fas fa-envelope fa-3x"></i>
+            <p class="text-center">
+              Refer the below code to use different variations of badges on avatar. Make
+              changes as per your requirements.
+            </p>
+            <div class="code-block">
+              <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FTejasShekar%2FPrime8UI%2Fblob%2F9c273c60a65305388cee02a4c2d551432a3ac0a9%2FComponents%2FBadge%2Fbadge.html%23L73-L102&style=a11y-dark&showBorder=on&showCopy=on"></script>
+            </div>
+          </section>
+          <section class="m-2">
+            <h2>Badge on Icon</h2>
+            <p>Badge on Icon can be used to show count information.</p>
+            <div class="flex-c-fe flex-wrap g-1 m-1">
+              <div class="badge-icon-container pos-relative">
+                <div>
+                  <i class="fas fa-bell fa-3x"></i>
+                </div>
                 <div class="notification-icon badge pos-abs flex-center">1</div>
               </div>
-            </div>
-            <div class="badge-icon-container pos-relative">
-              <div>
-                <i class="fas fa-shopping-cart fa-3x"></i>
-                <div class="notification-icon badge pos-abs flex-center">1</div>
+              <div class="badge-icon-container pos-relative">
+                <div>
+                  <i class="fas fa-envelope fa-3x"></i>
+                  <div class="notification-icon badge pos-abs flex-center">1</div>
+                </div>
+              </div>
+              <div class="badge-icon-container pos-relative">
+                <div>
+                  <i class="fas fa-shopping-cart fa-3x"></i>
+                  <div class="notification-icon badge pos-abs flex-center">1</div>
+                </div>
               </div>
             </div>
-          </div>
+            <p class="text-center">
+              Refer the below code to use different variations of badges on icon. Make
+              changes as per your requirements.
+            </p>
+            <div class="code-block">
+              <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FTejasShekar%2FPrime8UI%2Fblob%2F9c273c60a65305388cee02a4c2d551432a3ac0a9%2FComponents%2FBadge%2Fbadge.html%23L110-L127&style=a11y-dark&showBorder=on&showCopy=on"></script>
+            </div>
+          </section>
+        </main>
+        <footer class="footer">
           <p class="text-center">
-            Refer the below code to use different variations of badges on icon.
-            Make changes as per your requirements.
+            Made by
+            <a href="https://github.com/TejasShekar" target="_blank">
+              <span class="span">Tejas</span>
+            </a>
           </p>
-          <div class="code-block">
-            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FTejasShekar%2FPrime8UI%2Fblob%2F9c273c60a65305388cee02a4c2d551432a3ac0a9%2FComponents%2FBadge%2Fbadge.html%23L110-L127&style=a11y-dark&showBorder=on&showCopy=on"></script>
-          </div>
-        </section>
-      </main>
+        </footer>
+      </div>
     </div>
-    <footer class="footer mb-1">
-      Made by
-      <a href="https://github.com/TejasShekar" target="_blank">
-        <span class="span">Tejas</span>
-      </a>
-    </footer>
+
     <script src="../../Stylesheets/theme-toggle.js"></script>
   </body>
 </html>
