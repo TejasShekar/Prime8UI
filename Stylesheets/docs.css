@@ -61,6 +61,21 @@ html::-webkit-scrollbar-thumb {
   position: sticky;
   top: 4.625rem;
   height: calc(100vh - 6rem);
+  overflow-y: scroll;
+}
+
+.side-nav::-webkit-scrollbar {
+  width: 8px;
+}
+
+.side-nav::-webkit-scrollbar-thumb {
+  background-color: var(--primary);
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  -webkit-border-radius: 1rem;
 }
 
 .theme-toggle {
