@@ -38,32 +38,32 @@
     <link rel="manifest" href="../../Assets/site.webmanifest" />
     <link rel="mask-icon" href="../../Assets/safari-pinned-tab.svg" color="#eea53f" />
     <meta name="msapplication-TileColor" content="#da532c" />
+    <script src="../../Stylesheets/docs-menu-toggle.js" defer></script>
+    <script src="../../Stylesheets/theme-toggle.js" defer></script>
   </head>
   <body>
     <header class="header flex-sbw-c flex-wrap">
-      <a class="brand-name p-sm m-sm" href="/"><h1>PRIME 8</h1></a>
+      <div class="flex-center">
+        <a class="brand-name p-sm m-sm" href="/"><h1>PRIME 8</h1></a>
+        <button class="docs-menu-toggle-btn btn btn-icon">
+          <i class="fas fa-chevron-circle-right"></i>
+        </button>
+      </div>
       <nav class="header-nav">
-        <ul class="nav-list flex">
+        <ul class="nav-list flex-center">
           <li>
-            <a class="p-sm m-sm active" href="#">Documentation</a>
-          </li>
-          <li>
-            <a
-              class="p-sm m-sm"
-              href="https://github.com/TejasShekar/Prime8UI"
-              target="_blank"
-            >
+            <a class="p-1" href="https://github.com/TejasShekar/Prime8UI" target="_blank">
               <i class="fab fa-github"></i
             ></a>
           </li>
           <li class="flex-center">
-            <i class="theme-toggle px-2 fas fa-sun"></i>
+            <i class="theme-toggle mx-1 fas fa-sun"></i>
           </li>
         </ul>
       </nav>
     </header>
     <div class="wrapper grid grid-20-80">
-      <aside class="side-nav ml-3">
+      <aside class="side-nav pl-2">
         <ul>
           <li><a href="../Alerts/">Alerts</a></li>
           <li><a class="active" href="#">Avatars</a></li>
@@ -166,7 +166,5 @@
         </footer>
       </div>
     </div>
-
-    <script src="../../Stylesheets/theme-toggle.js"></script>
   </body>
 </html>
