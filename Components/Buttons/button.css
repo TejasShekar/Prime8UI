@@ -1,6 +1,6 @@
 .btn {
   background-color: var(--bg-color);
-  font-size: 1.3rem;
+  /* font-size: 1.3rem; */
   border: 1px solid transparent;
   border-radius: 0.475rem;
   font-weight: bold;
