@@ -11,10 +11,19 @@
 }
 
 .grid-demo {
-  display: flex;
-  align-items: center;
   border: 1px solid var(--text-color);
   border-radius: 2rem;
-  width: 35rem;
-  height: 20rem;
+  width: 80%;
+}
+
+@media screen and (max-width: 490px) {
+  .grid-demo {
+    width: 70%;
+  }
+  .grid-30-70,
+  .grid-50-50,
+  .grid-3 {
+    grid-template-columns: 1fr;
+    place-items: center;
+  }
 }

@@ -36,37 +36,34 @@
       href="../../Assets/favicon-16x16.png"
     />
     <link rel="manifest" href="../../Assets/site.webmanifest" />
-    <link
-      rel="mask-icon"
-      href="../../Assets/safari-pinned-tab.svg"
-      color="#eea53f"
-    />
+    <link rel="mask-icon" href="../../Assets/safari-pinned-tab.svg" color="#eea53f" />
     <meta name="msapplication-TileColor" content="#da532c" />
+    <script src="../../Stylesheets/docs-menu-toggle.js" defer></script>
+    <script src="../../Stylesheets/theme-toggle.js" defer></script>
   </head>
   <body>
     <header class="header flex-sbw-c flex-wrap">
-      <a class="brand-name p-sm m-1" href="../../index.html"
-        ><h1>PRIME 8</h1></a
-      >
-      <nav class="header-nav my-auto mx-0">
-        <ul class="nav-list flex">
-          <li><a class="p-sm m-sm active" href="#">Documentation</a></li>
+      <div class="flex-center">
+        <a class="brand-name p-sm m-sm" href="/"><h1>PRIME 8</h1></a>
+        <button class="docs-menu-toggle-btn btn btn-icon">
+          <i class="fas fa-chevron-circle-right"></i>
+        </button>
+      </div>
+      <nav class="header-nav">
+        <ul class="nav-list flex-center">
           <li>
-            <a
-              class="p-sm m-sm"
-              href="https://github.com/TejasShekar/Prime8UI"
-              target="_blank"
-              >Contribute <i class="fab fa-github"></i
+            <a class="p-1" href="https://github.com/TejasShekar/Prime8UI" target="_blank">
+              <i class="fab fa-github"></i
             ></a>
           </li>
-          <li>
-            <i class="theme-toggle px-2 fas fa-sun"></i>
+          <li class="flex-center">
+            <i class="theme-toggle mx-1 fas fa-sun"></i>
           </li>
         </ul>
       </nav>
     </header>
     <div class="wrapper grid grid-20-80">
-      <aside class="side-nav ml-3">
+      <aside class="side-nav pl-2">
         <ul>
           <li><a href="../Alerts/">Alerts</a></li>
           <li><a href="../Avatar/">Avatars</a></li>
@@ -85,117 +82,116 @@
           <li><a href="../Typography/">Typography</a></li>
         </ul>
       </aside>
-      <main>
-        <section class="m-2">
-          <h1 class="component-name">Grids</h1>
-          <p>
-            Grids are 2D layout used for displaying content along rows and
-            columns.
-          </p>
-        </section>
-        <section class="m-2">
-          <h2>Grid 30-70 layout</h2>
-          <p>
-            Use this layout to divide the container into 30% and 70% columns
-            respectively. Add
-            <span class="span">grid-30-70</span> class to the container to use
-            this layout.
-          </p>
-          <div class="mx-auto my-2 grid-demo">
-            <div class="grid grid-30-70 g-2 m-2">
-              <img
-                class="img-responsive img-round width-30"
-                src="../../Assets/avatar-female.jpg"
-                alt="Photo of a Female"
-              />
-              <div class="flex-center flex-col">
-                <h3>Hello, Ms. Jane</h3>
-                <p class="text-center">
-                  You have 7 new notifications pending. Have a look at them.
-                </p>
+      <div>
+        <main>
+          <section class="m-2">
+            <h1 class="component-name">Grids</h1>
+            <p>Grids are 2D layout used for displaying content along rows and columns.</p>
+          </section>
+          <section class="m-2">
+            <h2>Grid 30-70 layout</h2>
+            <p>
+              Use this layout to divide the container into 30% and 70% columns
+              respectively. Add
+              <span class="span">grid-30-70</span> class to the container to use this
+              layout.
+            </p>
+            <div class="mx-auto my-2 grid-demo">
+              <div class="grid grid-30-70 g-2 m-2">
+                <img
+                  class="img-responsive img-round"
+                  src="../../Assets/avatar-female.jpg"
+                  alt="Photo of a Female"
+                />
+                <div class="flex-center flex-col">
+                  <h3>Hello, Ms. Jane</h3>
+                  <p class="text-center">
+                    You have 7 new notifications pending. Have a look at them.
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-          <p class="text-center">
-            Refer the below code to use the above grid layout. Make
-            changes as per your requirements.
-          </p>
-          <div class="code-block">
-            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FTejasShekar%2FPrime8UI%2Fblob%2Fe878b915f9e9f6b58ec71875b8c89434f1501c08%2FComponents%2FGrid%2Findex.html%23L105-L117&style=a11y-dark&showBorder=on&showCopy=on"></script>
-          </div>
-        </section>
+            <p class="text-center">
+              Refer the below code to use the above grid layout. Make changes as per your
+              requirements.
+            </p>
+            <div class="code-block">
+              <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FTejasShekar%2FPrime8UI%2Fblob%2Fe878b915f9e9f6b58ec71875b8c89434f1501c08%2FComponents%2FGrid%2Findex.html%23L105-L117&style=a11y-dark&showBorder=on&showCopy=on"></script>
+            </div>
+          </section>
 
-        <section class="m-2">
-          <h2>Grid 50-50 layout</h2>
-          <p>
-            Use this layout to divide the container into two equal columns. Add
-            <span class="span">grid-50-50</span> class to the container to use
-            this layout.
-          </p>
-          <div class="mx-auto my-2 grid-demo">
-            <div class="grid grid-50-50 g-2 m-2">
-              <img
-                class="img-responsive img-round width-30"
-                src="../../Assets/avatar-female.jpg"
-                alt="Photo of a Female"
-              />
-              <div class="flex-center flex-col">
-                <h3>Hello, Ms. Jane</h3>
-                <p class="text-center">Welcome to your profile.</p>
+          <section class="m-2">
+            <h2>Grid 50-50 layout</h2>
+            <p>
+              Use this layout to divide the container into two equal columns. Add
+              <span class="span">grid-50-50</span> class to the container to use this
+              layout.
+            </p>
+            <div class="mx-auto my-2 grid-demo">
+              <div class="grid grid-50-50 g-2 m-2">
+                <img
+                  class="img-responsive img-round"
+                  src="../../Assets/avatar-female.jpg"
+                  alt="Photo of a Female"
+                />
+                <div class="flex-center flex-col">
+                  <h3>Hello, Ms. Jane</h3>
+                  <p class="text-center">Welcome to your profile.</p>
+                </div>
               </div>
             </div>
-          </div>
-          <p class="text-center">
-            Refer the below code to use the above grid layout. Make
-            changes as per your requirements.
-          </p>
-          <div class="code-block">
-            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FTejasShekar%2FPrime8UI%2Fblob%2Fe878b915f9e9f6b58ec71875b8c89434f1501c08%2FComponents%2FGrid%2Findex.html%23L136-L146&style=a11y-dark&showBorder=on&showCopy=on"></script>
-          </div>
-        </section>
-
-        <section class="m-2">
-          <h2>Grid-3 Column layout</h2>
-          <p>
-            Use this layout to divide the container into 3 equal columns. Add
-            <span class="span">grid-3</span> class to the container to use this
-            layout.
-          </p>
-          <div class="mx-auto my-2 grid-demo">
-            <div class="grid grid-3 g-2 m-2">
-              <img
-                class="img-responsive img-round width-30"
-                src="../../Assets/avatar-female.jpg"
-                alt="Photo of a Female"
-              />
-              <img
-                class="img-responsive img-round width-30"
-                src="../../Assets/avatar-male.jpg"
-                alt="Photo of a Female"
-              />
-              <img
-                class="img-responsive img-round width-30"
-                src="../../Assets/avatar-dog.jpg"
-                alt="Photo of a Female"
-              />
+            <p class="text-center">
+              Refer the below code to use the above grid layout. Make changes as per your
+              requirements.
+            </p>
+            <div class="code-block">
+              <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FTejasShekar%2FPrime8UI%2Fblob%2Fe878b915f9e9f6b58ec71875b8c89434f1501c08%2FComponents%2FGrid%2Findex.html%23L136-L146&style=a11y-dark&showBorder=on&showCopy=on"></script>
             </div>
-          </div>
+          </section>
+
+          <section class="m-2">
+            <h2>Grid-3 Column layout</h2>
+            <p>
+              Use this layout to divide the container into 3 equal columns. Add
+              <span class="span">grid-3</span> class to the container to use this layout.
+            </p>
+            <div class="mx-auto my-2 grid-demo">
+              <div class="grid grid-3 g-2 m-2">
+                <img
+                  class="img-responsive img-round"
+                  src="../../Assets/avatar-female.jpg"
+                  alt="Photo of a Female"
+                />
+                <img
+                  class="img-responsive img-round"
+                  src="../../Assets/avatar-male.jpg"
+                  alt="Photo of a Female"
+                />
+                <img
+                  class="img-responsive img-round"
+                  src="../../Assets/avatar-dog.jpg"
+                  alt="Photo of a Female"
+                />
+              </div>
+            </div>
+            <p class="text-center">
+              Refer the below code to use the above grid layout. Make changes as per your
+              requirements.
+            </p>
+            <div class="code-block">
+              <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FTejasShekar%2FPrime8UI%2Fblob%2Fe878b915f9e9f6b58ec71875b8c89434f1501c08%2FComponents%2FGrid%2Findex.html%23L165-L181&style=a11y-dark&showBorder=on&showCopy=on"></script>
+            </div>
+          </section>
+        </main>
+        <footer class="footer">
           <p class="text-center">
-            Refer the below code to use the above grid layout. Make
-            changes as per your requirements.
+            Made by
+            <a href="https://github.com/TejasShekar" target="_blank">
+              <span class="span">Tejas</span>
+            </a>
           </p>
-          <div class="code-block">
-            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FTejasShekar%2FPrime8UI%2Fblob%2Fe878b915f9e9f6b58ec71875b8c89434f1501c08%2FComponents%2FGrid%2Findex.html%23L165-L181&style=a11y-dark&showBorder=on&showCopy=on"></script>
-          </div>
-        </section>
-      </main>
+        </footer>
+      </div>
     </div>
-    <footer class="footer mb-1">
-      Made by
-      <a href="https://github.com/TejasShekar" target="_blank">
-        <span class="span">Tejas</span>
-      </a>
-    </footer>
-    <script src="../../Stylesheets/theme-toggle.js"></script>
   </body>
 </html>
