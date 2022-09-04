@@ -53,7 +53,7 @@
 }
 
 .grid-20-80 {
-  grid-template-columns: 1fr 5fr;
+  grid-template-columns: 1fr 4fr;
 }
 
 /* gap */
@@ -111,14 +111,4 @@
 }
 .error {
   color: var(--danger);
-}
-
-@media screen and (max-width: 600px) {
-  .wrapper {
-    display: block;
-  }
-
-  .side-nav {
-    display: none;
-  }
 }
