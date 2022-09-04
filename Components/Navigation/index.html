@@ -36,37 +36,34 @@
       href="../../Assets/favicon-16x16.png"
     />
     <link rel="manifest" href="../../Assets/site.webmanifest" />
-    <link
-      rel="mask-icon"
-      href="../../Assets/safari-pinned-tab.svg"
-      color="#eea53f"
-    />
+    <link rel="mask-icon" href="../../Assets/safari-pinned-tab.svg" color="#eea53f" />
     <meta name="msapplication-TileColor" content="#da532c" />
+    <script src="../../Stylesheets/docs-menu-toggle.js" defer></script>
+    <script src="../../Stylesheets/theme-toggle.js" defer></script>
   </head>
   <body>
     <header class="header flex-sbw-c flex-wrap">
-      <a class="brand-name p-sm m-1" href="../../index.html"
-        ><h1>PRIME 8</h1></a
-      >
-      <nav class="header-nav my-auto mx-0">
-        <ul class="nav-list flex">
-          <li><a class="p-sm m-sm active" href="#">Documentation</a></li>
+      <div class="flex-center">
+        <a class="brand-name p-sm m-sm" href="/"><h1>PRIME 8</h1></a>
+        <button class="docs-menu-toggle-btn btn btn-icon">
+          <i class="fas fa-chevron-circle-right"></i>
+        </button>
+      </div>
+      <nav class="header-nav">
+        <ul class="nav-list flex-center">
           <li>
-            <a
-              class="p-sm m-sm"
-              href="https://github.com/TejasShekar/Prime8UI"
-              target="_blank"
-              >Contribute <i class="fab fa-github"></i
+            <a class="p-1" href="https://github.com/TejasShekar/Prime8UI" target="_blank">
+              <i class="fab fa-github"></i
             ></a>
           </li>
-          <li>
-            <i class="theme-toggle px-2 fas fa-sun"></i>
+          <li class="flex-center">
+            <i class="theme-toggle mx-1 fas fa-sun"></i>
           </li>
         </ul>
       </nav>
     </header>
     <div class="wrapper grid grid-20-80">
-      <aside class="side-nav ml-3">
+      <aside class="side-nav pl-2">
         <ul>
           <li><a href="../Alerts/">Alerts</a></li>
           <li><a href="../Avatar/">Avatars</a></li>
@@ -85,81 +82,76 @@
           <li><a href="../Typography/">Typography</a></li>
         </ul>
       </aside>
-      <main>
-        <section class="m-2">
-          <h1 class="component-name">Navigation</h1>
-          <p>
-            Navigation bar is used to navigate through the web apps or websites.
-          </p>
-        </section>
-        <section class="m-2">
-          <h2>Desktop Navigation</h2>
-          <div class="nav-demo flex-sbw-c flex-wrap g-1 border my-2 mx-auto">
-            <a class="brand-name my-auto mx-1" href="#"><h1>P8</h1></a>
-            <label>
-              <input
-                type="search"
-                id="search-box"
-                placeholder="Search for products"
-              />
-              <i class="fas fa-search search-btn"></i>
-            </label>
-            <nav class="mx-1">
-              <ul class="nav-list flex-sbw">
-                <li class="mx-0 my-auto">
-                  <a class="link btn btn-icon my-sm mx-1 btn-link" href="/cart"
-                    ><div class="pos-relative">
-                      <div>
-                        <i class="fas fa-shopping-cart fa-2x"></i>
-                        <div
-                          class="notification-icon badge pos-abs flex-center"
-                        >
-                          0
+      <div class="main-wrapper">
+        <main>
+          <section class="m-2">
+            <h1 class="component-name">Navigation</h1>
+            <p>Navigation bar is used to navigate through the web apps or websites.</p>
+          </section>
+          <section class="m-2">
+            <h2>Desktop Navigation</h2>
+            <div class="nav-demo mx-auto">
+              <div class="flex-sbw-c flex-wrap g-1 border my-2 mx-auto">
+                <a class="brand-name my-auto mx-1" href="#"><h1>P8</h1></a>
+                <div>
+                  <input
+                    type="search"
+                    id="search-box"
+                    placeholder="Search for products"
+                  />
+                  <i class="fas fa-search search-btn"></i>
+                </div>
+                <nav class="mx-1">
+                  <ul class="flex-sbw">
+                    <li class="mx-0 my-auto">
+                      <a class="link btn btn-icon my-sm mx-1 btn-link" href="/cart"
+                        ><div class="pos-relative">
+                          <i class="fas fa-shopping-cart fa-2x"></i>
+                          <div class="notification-icon badge pos-abs flex-center">0</div>
                         </div>
-                      </div>
-                    </div></a
-                  >
-                </li>
-                <li class="mx-1 my-auto">
-                  <a
-                    class="link btn btn-icon my-sm mx-1 btn-link"
-                    href="/wishlist"
-                    ><div class="pos-relative">
-                      <div>
-                        <i class="fas fa-heart fa-2x"></i>
-                        <div
-                          class="notification-icon badge pos-abs flex-center"
-                        >
-                          0
-                        </div>
-                      </div>
-                    </div></a
-                  >
-                </li>
-                <li class="mx-0 my-auto">
-                  <a class="link btn py-sm px-1 btn-secondary" href="/login"
-                    >Login</a
-                  >
-                </li>
-              </ul>
-            </nav>
-          </div>
+                      </a>
+                    </li>
+                    <li class="mx-1 my-auto">
+                      <a class="link btn btn-icon my-sm mx-1 btn-link" href="/wishlist"
+                        ><div class="pos-relative">
+                          <div>
+                            <i class="fas fa-heart fa-2x"></i>
+                            <div class="notification-icon badge pos-abs flex-center">
+                              0
+                            </div>
+                          </div>
+                        </div></a
+                      >
+                    </li>
+                    <li class="mx-0 my-auto">
+                      <a class="link btn py-sm px-1 btn-secondary" href="/login">Login</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <p class="text-center">
+                Refer the below code to use the Navigation for desktop. Make changes as
+                per your requirements.
+              </p>
+              <div class="code-block">
+                <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FTejasShekar%2FPrime8UI%2Fblob%2Fe878b915f9e9f6b58ec71875b8c89434f1501c08%2FComponents%2FNavigation%2Findex.html%23L97-L131&style=a11y-dark&showBorder=on&showCopy=on"></script>
+              </div>
+            </div>
+            <p class="text-center p-1 error">
+              <i class="fas fa-exclamation-circle"></i>
+              This component is best viewed on larger screens.
+            </p>
+          </section>
+        </main>
+        <footer class="footer">
           <p class="text-center">
-            Refer the below code to use the Navigation for desktop. Make changes
-            as per your requirements.
+            Made by
+            <a href="https://github.com/TejasShekar" target="_blank">
+              <span class="span">Tejas</span>
+            </a>
           </p>
-          <div class="code-block">
-            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FTejasShekar%2FPrime8UI%2Fblob%2Fe878b915f9e9f6b58ec71875b8c89434f1501c08%2FComponents%2FNavigation%2Findex.html%23L97-L131&style=a11y-dark&showBorder=on&showCopy=on"></script>
-          </div>
-        </section>
-      </main>
+        </footer>
+      </div>
     </div>
-    <footer class="footer mb-1">
-      Made by
-      <a href="https://github.com/TejasShekar" target="_blank">
-        <span class="span">Tejas</span>
-      </a>
-    </footer>
-    <script src="../../Stylesheets/theme-toggle.js"></script>
   </body>
 </html>

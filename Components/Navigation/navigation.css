@@ -2,6 +2,15 @@
   max-width: 50rem;
 }
 
+@media screen and (max-width: 767px) {
+  .nav-demo {
+    display: none;
+  }
+  .main-wrapper {
+    height: calc(100vh - 5rem);
+  }
+}
+
 .border {
   border: 1px solid var(--text-color);
   border-radius: 1rem;
