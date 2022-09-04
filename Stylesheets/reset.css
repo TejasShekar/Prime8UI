@@ -13,6 +13,11 @@ body {
   line-height: 1.5;
   color: var(--text-color);
   background-color: var(--bg-color);
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
 }
 
 /* Fluid Typography */
@@ -25,11 +30,14 @@ Tools that helps with getting clamp range:
 2. https://utopia.fyi/type/calculator?c=320,16,1.125,1140,32,1.125,3,0,&s=0.75%7C0.5%7C0.25,1.5%7C2%7C3%7C4%7C6,s-l
   This 2nd tool gives you like a proper typography set. All you need to do is to input the smallest text size that you will use in your site and provide a good range of screen size width. Type scale is the multiplier based on which your type system show grow. Keep it default. Then scroll down and enable to use clamp. This will show a set of variables that define your each step. Step-0 is your font-size for the small text (or maybe h5,h6) and step with the highest count will be your h1. You can have as many steps as you want, depending upon your requirements.*/
 
-h1 {
+h1,
+.rating-container {
   font-size: clamp(1.13rem, 0.59rem + 1.79vw, 2.02rem);
 }
 
-h2 {
+h2,
+.nav-list i,
+.btn {
   font-size: clamp(1rem, 0.59rem + 1.37vw, 1.69rem);
 }
 
@@ -56,7 +64,7 @@ h6 {
 
 li {
   list-style: none;
-  margin: 1.15rem auto;
+  margin: 1.2rem auto;
 }
 
 p {
