@@ -1,25 +1,8 @@
 :root {
-  /* colors*/
-
-    /* dark mode */
-   --primary: #eea53f; 
-   /*--primary-dark */
-  --bg-color: #252525; 
-  /*--bg-dark*/
-  --text-color: #e0e0e0;
-  --link-color: #eea53f;
-
-    /* light mode */
-  /* --primary: #d87e00;  */
-  /* --primary-light */
-  /* --bg-color: #ffffff;   */
-  /* --bg-light */
-  /* --text-color: #000; */
-  /* --link-color: #000; */
-
   /* common colors */
   --light-grey: #8f8f8fb4;
   --secondary: #252525;
+  --light-white: #f0f0f0;
 
   /* badges colors*/
   --green: #26c426;
@@ -28,8 +11,26 @@
 
   /* alert colors */
   --info: #94e9e0;
-  --success: #00df5d;
+  --success: #2eff84;
   --danger: #e73737;
   --warn: #f19d00;
-  
+
+  /* Default Theme */
+  --primary: #eea53f;
+  --bg-color: #252525;
+  --text-color: #e0e0e0;
+  --link-color: #eea53f;
+}
+
+.dark-theme {
+  --primary: #eea53f;
+  --bg-color: #252525;
+  --text-color: #e0e0e0;
+  --link-color: #eea53f;
+}
+.light-theme {
+  --primary: #d87e00;
+  --bg-color: #ffffff;
+  --text-color: #000;
+  --link-color: #000;
 }

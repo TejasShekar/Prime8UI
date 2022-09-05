@@ -1,16 +1,12 @@
-.rating-container input {
+.star {
   display: none;
 }
 
-.fa-star {
+.selected {
+  color: var(--yellow);
+}
+
+.fa-star:hover {
   cursor: pointer;
   color: var(--yellow);
-}
-
-.fa-star:hover{
-  color: var(--yellow);
-}
-
-.rating-container input:not(:checked) + label {
-  color: var(--light-grey);
 }

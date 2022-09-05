@@ -1,8 +1,6 @@
-/* Have hardcode several color values since dark mode toggles primary color which affects consistency in component colors*/
-
 .btn {
   background-color: var(--bg-color);
-  font-size: 1.2rem;
+  /* font-size: 1.3rem; */
   border: 1px solid transparent;
   border-radius: 0.475rem;
   font-weight: bold;
@@ -10,10 +8,11 @@
 
 .btn-primary {
   color: var(--secondary);
-  background-color: #eea53f;
+  background-color: var(--primary);
 }
 
-.btn-primary:hover{
+/* hardcoded the below color for hover state */
+.btn-primary:hover {
   background-color: #d87e00;
 }
 
@@ -22,7 +21,7 @@
   border: 2px solid var(--primary);
 }
 
-.btn-secondary:hover{
+.btn-secondary:hover {
   color: var(--secondary);
   background-color: var(--primary);
 }

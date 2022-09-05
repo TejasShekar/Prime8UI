@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Tejas Shekar" />
+    <meta name="theme-color" content="#eea53f" />
+    <title>Prime8 | Input</title>
+    <link rel="stylesheet" href="../../styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../../Assets/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../../Assets/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../../Assets/favicon-16x16.png"
+    />
+    <link rel="manifest" href="../../Assets/site.webmanifest" />
+    <link rel="mask-icon" href="../../Assets/safari-pinned-tab.svg" color="#eea53f" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <script src="../../Stylesheets/docs-menu-toggle.js" defer></script>
+    <script src="../../Stylesheets/theme-toggle.js" defer></script>
+  </head>
+  <body>
+    <header class="header flex-sbw-c flex-wrap">
+      <div class="flex-center">
+        <a class="brand-name p-sm m-sm" href="/"><h1>PRIME 8</h1></a>
+        <button class="docs-menu-toggle-btn btn btn-icon">
+          <i class="fas fa-chevron-circle-right"></i>
+        </button>
+      </div>
+      <nav class="header-nav">
+        <ul class="nav-list flex-center">
+          <li>
+            <a class="p-1" href="https://github.com/TejasShekar/Prime8UI" target="_blank">
+              <i class="fab fa-github"></i
+            ></a>
+          </li>
+          <li class="flex-center">
+            <i class="theme-toggle mx-1 fas fa-sun"></i>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="wrapper grid grid-20-80">
+      <aside class="side-nav pl-2">
+        <ul>
+          <li><a href="../Alerts/">Alerts</a></li>
+          <li><a href="../Avatar/">Avatars</a></li>
+          <li><a href="../Badge/">Badges</a></li>
+          <li><a href="../Buttons/">Buttons</a></li>
+          <li><a href="../Cards/">Cards</a></li>
+          <li><a href="../Grid/">Grids</a></li>
+          <li><a href="../Images/">Images</a></li>
+          <li><a class="active" href="#">Input</a></li>
+          <li><a href="../Lists/">Lists</a></li>
+          <li><a href="../Modal/">Modal</a></li>
+          <li><a href="../Navigation/">Navigation</a></li>
+          <li><a href="../Rating/">Rating</a></li>
+          <li><a href="../Slider/">Slider</a></li>
+          <li><a href="../Toast/">Toast</a></li>
+          <li><a href="../Typography/">Typography</a></li>
+        </ul>
+      </aside>
+      <div>
+        <main>
+          <section class="m-2">
+            <h1 class="component-name">Input</h1>
+            <p>
+              Inputs are used to take information from the user and perform necessary
+              actions.
+            </p>
+          </section>
+          <section class="m-2">
+            <h2>Simple Input</h2>
+            <div class="input-container flex flex-col mx-auto my-2">
+              <label class="input-label" for="text-input">Username</label>
+              <input
+                id="text-input"
+                class="text-input"
+                type="text"
+                placeholder="Enter your username here"
+              />
+            </div>
+            <p class="text-center">
+              Refer the below code to create a simple input. Make changes as per your
+              requirements.
+            </p>
+            <div class="code-block">
+              <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FTejasShekar%2FPrime8UI%2Fblob%2F9c273c60a65305388cee02a4c2d551432a3ac0a9%2FComponents%2FInput%2Finput.html%23L65-L73&style=a11y-dark&showBorder=on&showCopy=on"></script>
+            </div>
+          </section>
+          <section class="m-2">
+            <h2>Input with Validation</h2>
+            <div class="input-container flex flex-col mx-auto my-2">
+              <label class="input-label" for="success-input">Success Validation</label>
+              <input
+                id="success-input"
+                class="success-input"
+                type="email"
+                placeholder="Enter your email here"
+                value="example.email@earth.com"
+              />
+              <div class="success-message">
+                <i class="fas fa-check-circle"></i> Looks Good !
+              </div>
+            </div>
+            <div class="input-container flex flex-col mx-auto my-2">
+              <label class="input-label" for="error-input">Error Validation</label>
+              <input
+                id="error-input"
+                class="error-input"
+                type="password"
+                placeholder="Enter your password here"
+                value="passowrd@123"
+              />
+              <div class="error-message">
+                <i class="fas fa-exclamation-triangle"></i> Wrong Password !
+              </div>
+            </div>
+            <p class="text-center">
+              Refer the below code to create input with success and error validation. Make
+              changes as per your requirements.
+            </p>
+            <div class="code-block">
+              <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FTejasShekar%2FPrime8UI%2Fblob%2F9c273c60a65305388cee02a4c2d551432a3ac0a9%2FComponents%2FInput%2Finput.html%23L78-L107&style=a11y-dark&showBorder=on&showCopy=on"></script>
+            </div>
+          </section>
+        </main>
+        <footer class="footer">
+          <p class="text-center">
+            Made by
+            <a href="https://github.com/TejasShekar" target="_blank">
+              <span class="span">Tejas</span>
+            </a>
+          </p>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

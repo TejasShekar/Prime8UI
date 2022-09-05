@@ -17,15 +17,17 @@
 }
 
 .card-title {
+  padding-top: 1rem;
   font-size: 1.5rem;
   font-weight: bold;
   text-align: center;
 }
 
 .card-description {
-  display: block;
+  padding-top: 1rem;
   font-size: 0.7rem;
   font-weight: 400;
+  line-height: 2;
 }
 
 .price-info {
@@ -107,6 +109,17 @@
   width: 50%;
 }
 
+@media screen and (max-width: 820px) {
+  .card-horizontal {
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 17rem;
+  }
+  .card-img-h {
+    width: 100%;
+  }
+}
+
 .card-details button {
   width: 97%;
   margin: 0.25rem;
@@ -118,6 +131,6 @@
 }
 
 /* Show Card Button */
-.show-card-btn{
+.show-card-btn {
   display: none;
 }

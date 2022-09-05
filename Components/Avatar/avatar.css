@@ -1,24 +1,24 @@
 .avatar {
   border-radius: 50%;
   font-size: 3rem;
-  height: 8rem;
-  width: 8rem;
+  height: 7rem;
+  width: 7rem;
 }
 
 .avatar-L {
   font-size: 4rem;
-  height: 12rem;
-  width: 12rem;
+  height: 10rem;
+  width: 10rem;
 }
 
 .avatar-S {
-  font-size: 2rem;
-  height: 5rem;
-  width: 5rem;
+  font-size: 1.5rem;
+  height: 4rem;
+  width: 4rem;
 }
 
 .avatar-text {
   border-radius: 50%;
-  background-color: #eea53f; /* will have to hardcode value since dark mode toggles primary color*/
+  background-color: var(--primary);
   color: var(--secondary);
 }

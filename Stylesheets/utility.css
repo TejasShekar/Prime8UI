@@ -43,8 +43,8 @@
   flex-wrap: wrap;
 }
 
-.flex-nowrap{
-    flex-wrap: nowrap;
+.flex-nowrap {
+  flex-wrap: nowrap;
 }
 
 /* grid-props */
@@ -53,7 +53,7 @@
 }
 
 .grid-20-80 {
-  grid-template-columns: 1fr 5fr;
+  grid-template-columns: 1fr 4fr;
 }
 
 /* gap */
@@ -65,24 +65,50 @@
   gap: 1rem;
 }
 
-.g-2{
+.g-2 {
   gap: 2rem;
 }
 
-.g-3{
+.g-3 {
   gap: 3rem;
 }
 
 /* text */
-.text-center{
+.text-center {
   text-align: center;
 }
-
+.text-right {
+  text-align: right;
+}
+.text-left {
+  text-align: left;
+}
 /* position */
-.pos-relative{
+.pos-relative {
   position: relative;
 }
 
 .pos-abs {
   position: absolute;
+}
+
+/* Colored text */
+
+.primary-text {
+  color: var(--primary);
+}
+.secondary-text {
+  color: var(--text-color);
+}
+.grey-text {
+  color: var(--light-grey);
+}
+.success {
+  color: var(--success);
+}
+.warning {
+  color: var(--yellow);
+}
+.error {
+  color: var(--danger);
 }

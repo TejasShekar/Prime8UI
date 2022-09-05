@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Tejas Shekar" />
+    <meta name="theme-color" content="#eea53f" />
+    <title>Prime8 | Navigation</title>
+    <link rel="stylesheet" href="../../styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../../Assets/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../../Assets/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../../Assets/favicon-16x16.png"
+    />
+    <link rel="manifest" href="../../Assets/site.webmanifest" />
+    <link rel="mask-icon" href="../../Assets/safari-pinned-tab.svg" color="#eea53f" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <script src="../../Stylesheets/docs-menu-toggle.js" defer></script>
+    <script src="../../Stylesheets/theme-toggle.js" defer></script>
+  </head>
+  <body>
+    <header class="header flex-sbw-c flex-wrap">
+      <div class="flex-center">
+        <a class="brand-name p-sm m-sm" href="/"><h1>PRIME 8</h1></a>
+        <button class="docs-menu-toggle-btn btn btn-icon">
+          <i class="fas fa-chevron-circle-right"></i>
+        </button>
+      </div>
+      <nav class="header-nav">
+        <ul class="nav-list flex-center">
+          <li>
+            <a class="p-1" href="https://github.com/TejasShekar/Prime8UI" target="_blank">
+              <i class="fab fa-github"></i
+            ></a>
+          </li>
+          <li class="flex-center">
+            <i class="theme-toggle mx-1 fas fa-sun"></i>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="wrapper grid grid-20-80">
+      <aside class="side-nav pl-2">
+        <ul>
+          <li><a href="../Alerts/">Alerts</a></li>
+          <li><a href="../Avatar/">Avatars</a></li>
+          <li><a href="../Badge/">Badges</a></li>
+          <li><a href="../Buttons/">Buttons</a></li>
+          <li><a href="../Cards/">Cards</a></li>
+          <li><a href="../Grid/">Grids</a></li>
+          <li><a href="../Images/">Images</a></li>
+          <li><a href="../Input/">Input</a></li>
+          <li><a href="../Lists/">Lists</a></li>
+          <li><a href="../Modal/">Modal</a></li>
+          <li><a class="active" href="#">Navigation</a></li>
+          <li><a href="../Rating/">Rating</a></li>
+          <li><a href="../Slider/">Slider</a></li>
+          <li><a href="../Toast/">Toast</a></li>
+          <li><a href="../Typography/">Typography</a></li>
+        </ul>
+      </aside>
+      <div class="main-wrapper">
+        <main>
+          <section class="m-2">
+            <h1 class="component-name">Navigation</h1>
+            <p>Navigation bar is used to navigate through the web apps or websites.</p>
+          </section>
+          <section class="m-2">
+            <h2>Desktop Navigation</h2>
+            <div class="nav-demo mx-auto">
+              <div class="flex-sbw-c flex-wrap g-1 border my-2 mx-auto">
+                <a class="brand-name my-auto mx-1" href="#"><h1>P8</h1></a>
+                <div>
+                  <input
+                    type="search"
+                    id="search-box"
+                    placeholder="Search for products"
+                  />
+                  <i class="fas fa-search search-btn"></i>
+                </div>
+                <nav class="mx-1">
+                  <ul class="flex-sbw">
+                    <li class="mx-0 my-auto">
+                      <a class="link btn btn-icon my-sm mx-1 btn-link" href="/cart"
+                        ><div class="pos-relative">
+                          <i class="fas fa-shopping-cart fa-2x"></i>
+                          <div class="notification-icon badge pos-abs flex-center">0</div>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="mx-1 my-auto">
+                      <a class="link btn btn-icon my-sm mx-1 btn-link" href="/wishlist"
+                        ><div class="pos-relative">
+                          <div>
+                            <i class="fas fa-heart fa-2x"></i>
+                            <div class="notification-icon badge pos-abs flex-center">
+                              0
+                            </div>
+                          </div>
+                        </div></a
+                      >
+                    </li>
+                    <li class="mx-0 my-auto">
+                      <a class="link btn py-sm px-1 btn-secondary" href="/login">Login</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <p class="text-center">
+                Refer the below code to use the Navigation for desktop. Make changes as
+                per your requirements.
+              </p>
+              <div class="code-block">
+                <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FTejasShekar%2FPrime8UI%2Fblob%2Fe878b915f9e9f6b58ec71875b8c89434f1501c08%2FComponents%2FNavigation%2Findex.html%23L97-L131&style=a11y-dark&showBorder=on&showCopy=on"></script>
+              </div>
+            </div>
+            <p class="text-center p-1 error">
+              <i class="fas fa-exclamation-circle"></i>
+              This component is best viewed on larger screens.
+            </p>
+          </section>
+        </main>
+        <footer class="footer">
+          <p class="text-center">
+            Made by
+            <a href="https://github.com/TejasShekar" target="_blank">
+              <span class="span">Tejas</span>
+            </a>
+          </p>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

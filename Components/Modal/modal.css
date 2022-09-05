@@ -1,0 +1,43 @@
+.modal {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 0.5rem;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 1;
+  align-items: center;
+  justify-content: center;
+}
+.modal-content {
+  background-color: var(--light-white);
+  border-radius: 1rem;
+  color: var(--secondary);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 80%;
+  max-width: 30rem;
+}
+
+.modal-dismiss-btn {
+  background-color: transparent;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+.modal-btns {
+  display: flex;
+  justify-content: flex-end;
+}
+.modal-btns > .btn-secondary {
+  color: var(--secondary);
+  background-color: var(--light-white);
+}
+
+.modal-btns > .btn-secondary:hover {
+  background-color: var(--primary);
+}

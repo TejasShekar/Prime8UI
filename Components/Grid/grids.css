@@ -1,0 +1,29 @@
+.grid-30-70 {
+  grid-template-columns: 3fr 7fr;
+}
+
+.grid-50-50 {
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-3 {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-demo {
+  border: 1px solid var(--text-color);
+  border-radius: 2rem;
+  width: 80%;
+}
+
+@media screen and (max-width: 490px) {
+  .grid-demo {
+    width: 70%;
+  }
+  .grid-30-70,
+  .grid-50-50,
+  .grid-3 {
+    grid-template-columns: 1fr;
+    place-items: center;
+  }
+}
