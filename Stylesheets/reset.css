@@ -36,8 +36,7 @@ h1,
 }
 
 h2,
-.nav-list i,
-.btn {
+.nav-list i {
   font-size: clamp(1rem, 0.59rem + 1.37vw, 1.69rem);
 }
 
@@ -45,7 +44,8 @@ h3,
 a,
 p,
 p span,
-.theme-toggle {
+.theme-toggle,
+.btn {
   font-size: clamp(0.89rem, 0.3rem + 1.03vw, 1.4rem);
 }
 
